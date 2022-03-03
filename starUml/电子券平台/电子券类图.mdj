@@ -62,7 +62,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 101,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "«券批次表»"
 										},
@@ -76,7 +76,7 @@
 											"font": "Arial;13;1",
 											"left": 189,
 											"top": 116,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "ticket_batch"
 										},
@@ -91,7 +91,7 @@
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": -1648,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -114,7 +114,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 96,
-									"width": 195.39599609375,
+									"width": 203.59716796875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcoJARmEaTZC0="
@@ -152,7 +152,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 139,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_id",
 											"horizontalAlignment": 0
@@ -170,7 +170,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 154,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_name",
 											"horizontalAlignment": 0
@@ -188,7 +188,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 169,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_number",
 											"horizontalAlignment": 0
@@ -206,7 +206,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 184,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_price",
 											"horizontalAlignment": 0
@@ -224,7 +224,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 199,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_amount",
 											"horizontalAlignment": 0
@@ -242,7 +242,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 214,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_lifecycle_type",
 											"horizontalAlignment": 0
@@ -260,7 +260,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 229,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_merchant_share",
 											"horizontalAlignment": 0
@@ -278,7 +278,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 244,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_store_share",
 											"horizontalAlignment": 0
@@ -296,7 +296,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 259,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_merchant_range",
 											"horizontalAlignment": 0
@@ -314,7 +314,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 274,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_add_operator_id",
 											"horizontalAlignment": 0
@@ -332,7 +332,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 289,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_addtime",
 											"horizontalAlignment": 0
@@ -350,7 +350,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 304,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+batch_create_use_code_count",
 											"horizontalAlignment": 0
@@ -368,7 +368,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 319,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+is_recycle",
 											"horizontalAlignment": 0
@@ -386,7 +386,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 334,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+condition_type",
 											"horizontalAlignment": 0
@@ -404,7 +404,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 349,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+condition_value",
 											"horizontalAlignment": 0
@@ -422,7 +422,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 364,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+activity_code",
 											"horizontalAlignment": 0
@@ -440,7 +440,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 379,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+astrict_rule",
 											"horizontalAlignment": 0
@@ -458,7 +458,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 394,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+condition_number",
 											"horizontalAlignment": 0
@@ -476,7 +476,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 409,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+merchant_share_price",
 											"horizontalAlignment": 0
@@ -494,7 +494,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 424,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+single_flag",
 											"horizontalAlignment": 0
@@ -512,7 +512,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 439,
-											"width": 185.39599609375,
+											"width": 193.59716796875,
 											"height": 13,
 											"text": "+most_add_number",
 											"horizontalAlignment": 0
@@ -522,7 +522,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 134,
-									"width": 195.39599609375,
+									"width": 203.59716796875,
 									"height": 323
 								},
 								{
@@ -538,7 +538,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 457,
-									"width": 195.39599609375,
+									"width": 203.59716796875,
 									"height": 10
 								},
 								{
@@ -581,7 +581,7 @@
 							"containerChangeable": true,
 							"left": 184,
 							"top": 96,
-							"width": 195.39599609375,
+							"width": 203.59716796875,
 							"height": 371,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcoJARmEaSPLE="
@@ -629,7 +629,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 133,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "«券主表»"
 										},
@@ -643,7 +643,7 @@
 											"font": "Arial;13;1",
 											"left": 565,
 											"top": 148,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "ticket_main"
 										},
@@ -658,7 +658,7 @@
 											"font": "Arial;13;0",
 											"left": 368,
 											"top": -1712,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -681,7 +681,7 @@
 									"font": "Arial;13;0",
 									"left": 560,
 									"top": 128,
-									"width": 172,
+									"width": 178.4921875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcoJUn0HfxlF4="
@@ -719,7 +719,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 171,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -737,7 +737,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 186,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "«关联批次»+ticket_batch_id",
 											"horizontalAlignment": 0
@@ -755,7 +755,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 201,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_use_code",
 											"horizontalAlignment": 0
@@ -773,7 +773,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 216,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_add_operator_id",
 											"horizontalAlignment": 0
@@ -791,7 +791,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 231,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_price",
 											"horizontalAlignment": 0
@@ -809,7 +809,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 246,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_status",
 											"horizontalAlignment": 0
@@ -827,7 +827,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 261,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_send_object",
 											"horizontalAlignment": 0
@@ -845,7 +845,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 276,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_use_object",
 											"horizontalAlignment": 0
@@ -863,7 +863,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 291,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_add_operator_id",
 											"horizontalAlignment": 0
@@ -881,7 +881,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 306,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_add_time",
 											"horizontalAlignment": 0
@@ -899,7 +899,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 321,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_send_time",
 											"horizontalAlignment": 0
@@ -917,7 +917,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 336,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_use_time",
 											"horizontalAlignment": 0
@@ -935,7 +935,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 351,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_invalid_time",
 											"horizontalAlignment": 0
@@ -953,7 +953,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 366,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_qr_code",
 											"horizontalAlignment": 0
@@ -971,7 +971,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 381,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+ticket_extract_code",
 											"horizontalAlignment": 0
@@ -989,7 +989,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 396,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+pact_number",
 											"horizontalAlignment": 0
@@ -1007,7 +1007,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 411,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+use_status",
 											"horizontalAlignment": 0
@@ -1025,7 +1025,7 @@
 											"font": "Arial;13;0",
 											"left": 565,
 											"top": 426,
-											"width": 162,
+											"width": 168.4921875,
 											"height": 13,
 											"text": "+unionid",
 											"horizontalAlignment": 0
@@ -1035,7 +1035,7 @@
 									"font": "Arial;13;0",
 									"left": 560,
 									"top": 166,
-									"width": 172,
+									"width": 178.4921875,
 									"height": 278
 								},
 								{
@@ -1051,7 +1051,7 @@
 									"font": "Arial;13;0",
 									"left": 560,
 									"top": 444,
-									"width": 172,
+									"width": 178.4921875,
 									"height": 10
 								},
 								{
@@ -1094,7 +1094,7 @@
 							"containerChangeable": true,
 							"left": 560,
 							"top": 128,
-							"width": 172,
+							"width": 178.4921875,
 							"height": 326,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcoJUn0Hfwrtw="
@@ -1133,8 +1133,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 469,
-									"top": 264,
+									"left": 473,
+									"top": 265,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1154,8 +1154,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 469,
-									"top": 249,
+									"left": 473,
+									"top": 250,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1175,8 +1175,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 468,
-									"top": 293,
+									"left": 472,
+									"top": 294,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1196,8 +1196,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 405,
-									"top": 262,
+									"left": 414,
+									"top": 263,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1217,8 +1217,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 408,
-									"top": 249,
+									"left": 416,
+									"top": 250,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1237,9 +1237,9 @@
 										"$ref": "AAAAAAFcoJY5Logp3pA="
 									},
 									"font": "Arial;13;0",
-									"left": 394,
+									"left": 403,
 									"top": 256,
-									"width": 7.22998046875,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": 0.8795866722936845,
 									"distance": 27.80287754891569,
@@ -1281,7 +1281,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 531,
-									"top": 252,
+									"top": 253,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1351,7 +1351,7 @@
 								"$ref": "AAAAAAFcoJARmEaRgf8="
 							},
 							"lineStyle": 1,
-							"points": "379:283;559:288",
+							"points": "388:284;559:288",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcoJY5MIgtikc="
@@ -1417,7 +1417,7 @@
 											"font": "Arial;13;0",
 											"left": 285,
 											"top": 565,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "«券批次有效期连续日期表»"
 										},
@@ -1431,7 +1431,7 @@
 											"font": "Arial;13;1",
 											"left": 285,
 											"top": 580,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "ticket_batch_lifecycle_continue"
 										},
@@ -1446,7 +1446,7 @@
 											"font": "Arial;13;0",
 											"left": 320,
 											"top": -1056,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -1469,7 +1469,7 @@
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 560,
-									"width": 208,
+									"width": 210.94775390625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcoJpFMJ+yjdI="
@@ -1507,7 +1507,7 @@
 											"font": "Arial;13;0",
 											"left": 285,
 											"top": 603,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -1525,7 +1525,7 @@
 											"font": "Arial;13;0",
 											"left": 285,
 											"top": 618,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "«关联»+life_batch_id",
 											"horizontalAlignment": 0
@@ -1543,7 +1543,7 @@
 											"font": "Arial;13;0",
 											"left": 285,
 											"top": 633,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "+life_start_date",
 											"horizontalAlignment": 0
@@ -1561,7 +1561,7 @@
 											"font": "Arial;13;0",
 											"left": 285,
 											"top": 648,
-											"width": 198,
+											"width": 200.94775390625,
 											"height": 13,
 											"text": "+life_end_date",
 											"horizontalAlignment": 0
@@ -1571,7 +1571,7 @@
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 598,
-									"width": 208,
+									"width": 210.94775390625,
 									"height": 68
 								},
 								{
@@ -1587,7 +1587,7 @@
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 666,
-									"width": 208,
+									"width": 210.94775390625,
 									"height": 10
 								},
 								{
@@ -1630,7 +1630,7 @@
 							"containerChangeable": true,
 							"left": 280,
 							"top": 560,
-							"width": 208,
+							"width": 210.94775390625,
 							"height": 116,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcoJpFMJ+xiQc="
@@ -1678,7 +1678,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 565,
-											"width": 167,
+											"width": 168.4287109375,
 											"height": 13,
 											"text": "«券批次有效期间断表»"
 										},
@@ -1692,7 +1692,7 @@
 											"font": "Arial;13;1",
 											"left": 501,
 											"top": 580,
-											"width": 167,
+											"width": 168.4287109375,
 											"height": 13,
 											"text": "ticket_batch_lifecycle_gap"
 										},
@@ -1707,7 +1707,7 @@
 											"font": "Arial;13;0",
 											"left": 224,
 											"top": -1152,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -1730,7 +1730,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 560,
-									"width": 177,
+									"width": 178.4287109375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcoJu937NHtG0="
@@ -1768,7 +1768,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 603,
-											"width": 167,
+											"width": 168.4287109375,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -1786,7 +1786,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 618,
-											"width": 167,
+											"width": 168.4287109375,
 											"height": 13,
 											"text": "«关联»+life_batch_id",
 											"horizontalAlignment": 0
@@ -1804,7 +1804,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 633,
-											"width": 167,
+											"width": 168.4287109375,
 											"height": 13,
 											"text": "+life_date",
 											"horizontalAlignment": 0
@@ -1814,7 +1814,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 598,
-									"width": 177,
+									"width": 178.4287109375,
 									"height": 53
 								},
 								{
@@ -1830,7 +1830,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 651,
-									"width": 177,
+									"width": 178.4287109375,
 									"height": 10
 								},
 								{
@@ -1873,7 +1873,7 @@
 							"containerChangeable": true,
 							"left": 496,
 							"top": 560,
-							"width": 177,
+							"width": 178.4287109375,
 							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcoJu93rNGsOM="
@@ -1921,7 +1921,7 @@
 											"font": "Arial;13;0",
 											"left": 685,
 											"top": 565,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "«券批次有效期顺延表»"
 										},
@@ -1935,7 +1935,7 @@
 											"font": "Arial;13;1",
 											"left": 685,
 											"top": 580,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "ticket_batch_lifecycle_postpone"
 										},
@@ -1950,7 +1950,7 @@
 											"font": "Arial;13;0",
 											"left": 672,
 											"top": -1136,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -1973,7 +1973,7 @@
 									"font": "Arial;13;0",
 									"left": 680,
 									"top": 560,
-									"width": 211,
+									"width": 215.81640625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcoJzdtsL/1ZY="
@@ -2011,7 +2011,7 @@
 											"font": "Arial;13;0",
 											"left": 685,
 											"top": 603,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -2029,7 +2029,7 @@
 											"font": "Arial;13;0",
 											"left": 685,
 											"top": 618,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "«关联»+life_batch_id",
 											"horizontalAlignment": 0
@@ -2047,7 +2047,7 @@
 											"font": "Arial;13;0",
 											"left": 685,
 											"top": 633,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "+life_send_ticket_end_date",
 											"horizontalAlignment": 0
@@ -2065,7 +2065,7 @@
 											"font": "Arial;13;0",
 											"left": 685,
 											"top": 648,
-											"width": 201,
+											"width": 205.81640625,
 											"height": 13,
 											"text": "+life_lifecycle_days",
 											"horizontalAlignment": 0
@@ -2075,7 +2075,7 @@
 									"font": "Arial;13;0",
 									"left": 680,
 									"top": 598,
-									"width": 211,
+									"width": 215.81640625,
 									"height": 68
 								},
 								{
@@ -2091,7 +2091,7 @@
 									"font": "Arial;13;0",
 									"left": 680,
 									"top": 666,
-									"width": 211,
+									"width": 215.81640625,
 									"height": 10
 								},
 								{
@@ -2134,7 +2134,7 @@
 							"containerChangeable": true,
 							"left": 680,
 							"top": 560,
-							"width": 211,
+							"width": 215.81640625,
 							"height": 116,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcoJzdtsL+Wdg="
@@ -2173,8 +2173,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 546,
-									"top": 434,
+									"left": 552,
+									"top": 435,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2194,8 +2194,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 554,
-									"top": 421,
+									"left": 560,
+									"top": 423,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2215,8 +2215,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 529,
-									"top": 459,
+									"left": 535,
+									"top": 460,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2236,8 +2236,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 408,
-									"top": 342,
+									"left": 417,
+									"top": 345,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2257,8 +2257,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 418,
-									"top": 333,
+									"left": 427,
+									"top": 336,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2277,9 +2277,9 @@
 										"$ref": "AAAAAAFcoKBuju3SB1E="
 									},
 									"font": "Arial;13;0",
-									"left": 387,
-									"top": 363,
-									"width": 7.22998046875,
+									"left": 396,
+									"top": 366,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2300,7 +2300,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 684,
+									"left": 686,
 									"top": 526,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2320,7 +2320,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 690,
+									"left": 692,
 									"top": 513,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -2339,7 +2339,7 @@
 										"$ref": "AAAAAAFcoKBuju3TiVQ="
 									},
 									"font": "Arial;13;0",
-									"left": 685,
+									"left": 687,
 									"top": 530,
 									"width": 22,
 									"height": 13,
@@ -2391,7 +2391,7 @@
 								"$ref": "AAAAAAFcoJARmEaRgf8="
 							},
 							"lineStyle": 1,
-							"points": "379:347;698:559",
+							"points": "388:350;700:559",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcoKBuj+3WKkk="
@@ -2448,7 +2448,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 365,
+									"left": 367,
 									"top": 502,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2469,7 +2469,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 379,
+									"left": 381,
 									"top": 498,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2490,7 +2490,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 336,
+									"left": 338,
 									"top": 511,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -2511,7 +2511,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 358,
+									"left": 361,
 									"top": 481,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2532,8 +2532,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 372,
-									"top": 479,
+									"left": 375,
+									"top": 480,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2552,9 +2552,9 @@
 										"$ref": "AAAAAAFcoKEa/fz3m4M="
 									},
 									"font": "Arial;13;0",
-									"left": 328,
+									"left": 331,
 									"top": 485,
-									"width": 7.22998046875,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2575,7 +2575,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 371,
+									"left": 374,
 									"top": 523,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2595,7 +2595,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 383,
+									"left": 386,
 									"top": 517,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -2614,7 +2614,7 @@
 										"$ref": "AAAAAAFcoKEa/fz4bCY="
 									},
 									"font": "Arial;13;0",
-									"left": 326,
+									"left": 329,
 									"top": 534,
 									"width": 22,
 									"height": 13,
@@ -2666,7 +2666,7 @@
 								"$ref": "AAAAAAFcoJARmEaRgf8="
 							},
 							"lineStyle": 1,
-							"points": "337:467;365:559",
+							"points": "340:467;367:559",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcoKEa/vz7XyI="
@@ -2723,8 +2723,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 469,
-									"top": 456,
+									"left": 474,
+									"top": 459,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2744,8 +2744,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 480,
-									"top": 446,
+									"left": 485,
+									"top": 449,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2765,8 +2765,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 446,
-									"top": 477,
+									"left": 451,
+									"top": 480,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2786,8 +2786,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 407,
-									"top": 390,
+									"left": 416,
+									"top": 397,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2807,8 +2807,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 418,
-									"top": 383,
+									"left": 427,
+									"top": 389,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2827,9 +2827,9 @@
 										"$ref": "AAAAAAFcoKFb2wQ3is0="
 									},
 									"font": "Arial;13;0",
-									"left": 381,
-									"top": 406,
-									"width": 7.22998046875,
+									"left": 390,
+									"top": 412,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2850,7 +2850,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 530,
+									"left": 531,
 									"top": 523,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2870,7 +2870,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 538,
+									"left": 539,
 									"top": 513,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -2889,7 +2889,7 @@
 										"$ref": "AAAAAAFcoKFb2wQ4nmA="
 									},
 									"font": "Arial;13;0",
-									"left": 524,
+									"left": 525,
 									"top": 527,
 									"width": 20,
 									"height": 13,
@@ -2941,7 +2941,7 @@
 								"$ref": "AAAAAAFcoJARmEaRgf8="
 							},
 							"lineStyle": 1,
-							"points": "379:388;537:559",
+							"points": "388:394;538:559",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcoKFb2wQ7+aw="
@@ -3007,7 +3007,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 565,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "«商户白名单或黑名单表»"
 										},
@@ -3021,7 +3021,7 @@
 											"font": "Arial;13;1",
 											"left": 85,
 											"top": 580,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "ticket_batch_merchant_list"
 										},
@@ -3036,7 +3036,7 @@
 											"font": "Arial;13;0",
 											"left": -336,
 											"top": -1232,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -3059,7 +3059,7 @@
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 560,
-									"width": 194.62164306640625,
+									"width": 203.45751953125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFcqYwPIFHpYVc="
@@ -3097,7 +3097,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 603,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -3115,7 +3115,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 618,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "«关联批次»+merchant_batch_id",
 											"horizontalAlignment": 0
@@ -3133,7 +3133,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 633,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "«关联商户»+merchant_id",
 											"horizontalAlignment": 0
@@ -3151,7 +3151,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 648,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "+merchant_name",
 											"horizontalAlignment": 0
@@ -3169,7 +3169,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 663,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "+merchant_kid",
 											"horizontalAlignment": 0
@@ -3187,7 +3187,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 678,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "+merchant_showid",
 											"horizontalAlignment": 0
@@ -3205,7 +3205,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 693,
-											"width": 184.62164306640625,
+											"width": 193.45751953125,
 											"height": 13,
 											"text": "+merchant_area",
 											"horizontalAlignment": 0
@@ -3215,7 +3215,7 @@
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 598,
-									"width": 194.62164306640625,
+									"width": 203.45751953125,
 									"height": 113
 								},
 								{
@@ -3231,7 +3231,7 @@
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 711,
-									"width": 194.62164306640625,
+									"width": 203.45751953125,
 									"height": 10
 								},
 								{
@@ -3274,7 +3274,7 @@
 							"containerChangeable": true,
 							"left": 80,
 							"top": 560,
-							"width": 194.62164306640625,
+							"width": 203.45751953125,
 							"height": 161,
 							"nameCompartment": {
 								"$ref": "AAAAAAFcqYwPH1HoC3E="
@@ -3313,7 +3313,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 227,
+									"left": 231,
 									"top": 511,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3334,7 +3334,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 241,
+									"left": 245,
 									"top": 515,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3355,7 +3355,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 198,
+									"left": 202,
 									"top": 502,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3376,7 +3376,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 234,
+									"left": 238,
 									"top": 490,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -3397,7 +3397,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 246,
+									"left": 250,
 									"top": 496,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -3417,9 +3417,9 @@
 										"$ref": "AAAAAAFcqY+nnpUXrPE="
 									},
 									"font": "Arial;13;0",
-									"left": 205,
+									"left": 209,
 									"top": 478,
-									"width": 7.22998046875,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -3440,7 +3440,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 221,
+									"left": 225,
 									"top": 532,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -3460,7 +3460,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 235,
+									"left": 239,
 									"top": 533,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -3479,7 +3479,7 @@
 										"$ref": "AAAAAAFcqY+nnpUYZ7I="
 									},
 									"font": "Arial;13;0",
-									"left": 184,
+									"left": 188,
 									"top": 528,
 									"width": 20,
 									"height": 13,
@@ -3531,7 +3531,7 @@
 								"$ref": "AAAAAAFcoJARmEaRgf8="
 							},
 							"lineStyle": 1,
-							"points": "227:467;200:559",
+							"points": "231:467;204:559",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFcqY+nnpUbb94="
@@ -3608,7 +3608,7 @@
 											"font": "Arial;13;1",
 											"left": 845,
 											"top": 175,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "合同收券记录表"
 										},
@@ -3622,7 +3622,7 @@
 											"font": "Arial;13;0",
 											"left": 1376,
 											"top": -2176,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -3643,7 +3643,7 @@
 									"font": "Arial;13;0",
 									"left": 840,
 									"top": 168,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFjTfilu8AFutg="
@@ -3680,7 +3680,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 198,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -3697,7 +3697,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 213,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+pact_number",
 											"horizontalAlignment": 0
@@ -3714,7 +3714,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 228,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+grant_type",
 											"horizontalAlignment": 0
@@ -3731,7 +3731,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 243,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+ticket_usecode",
 											"horizontalAlignment": 0
@@ -3748,7 +3748,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 258,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+status",
 											"horizontalAlignment": 0
@@ -3765,7 +3765,7 @@
 											"font": "Arial;13;0",
 											"left": 845,
 											"top": 273,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+pact_id",
 											"horizontalAlignment": 0
@@ -3774,7 +3774,7 @@
 									"font": "Arial;13;0",
 									"left": 840,
 									"top": 193,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 98
 								},
 								{
@@ -3789,7 +3789,7 @@
 									"font": "Arial;13;0",
 									"left": 840,
 									"top": 291,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 10
 								},
 								{
@@ -3829,7 +3829,7 @@
 							"containerChangeable": true,
 							"left": 840,
 							"top": 168,
-							"width": 106,
+							"width": 111.46728515625,
 							"height": 133,
 							"nameCompartment": {
 								"$ref": "AAAAAAFjTfilusAE3xU="
@@ -3888,7 +3888,7 @@
 											"font": "Arial;13;1",
 											"left": 837,
 											"top": 343,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "合同发券记录表"
 										},
@@ -3902,7 +3902,7 @@
 											"font": "Arial;13;0",
 											"left": 1216,
 											"top": -2048,
-											"width": 129.27012634277344,
+											"width": 133.44677734375,
 											"height": 13,
 											"text": "(from 电子券数据结构)"
 										},
@@ -3923,7 +3923,7 @@
 									"font": "Arial;13;0",
 									"left": 832,
 									"top": 336,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFjTfuhH8aYSYU="
@@ -3960,7 +3960,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 366,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+id",
 											"horizontalAlignment": 0
@@ -3977,7 +3977,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 381,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+grant_id",
 											"horizontalAlignment": 0
@@ -3994,7 +3994,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 396,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+grant_type",
 											"horizontalAlignment": 0
@@ -4011,7 +4011,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 411,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+ticket_id",
 											"horizontalAlignment": 0
@@ -4028,7 +4028,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 426,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+pact_number",
 											"horizontalAlignment": 0
@@ -4045,7 +4045,7 @@
 											"font": "Arial;13;0",
 											"left": 837,
 											"top": 441,
-											"width": 96,
+											"width": 101.46728515625,
 											"height": 13,
 											"text": "+ticket_usecode",
 											"horizontalAlignment": 0
@@ -4054,7 +4054,7 @@
 									"font": "Arial;13;0",
 									"left": 832,
 									"top": 361,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 98
 								},
 								{
@@ -4069,7 +4069,7 @@
 									"font": "Arial;13;0",
 									"left": 832,
 									"top": 459,
-									"width": 106,
+									"width": 111.46728515625,
 									"height": 10
 								},
 								{
@@ -4109,7 +4109,7 @@
 							"containerChangeable": true,
 							"left": 832,
 							"top": 336,
-							"width": 106,
+							"width": 111.46728515625,
 							"height": 133,
 							"nameCompartment": {
 								"$ref": "AAAAAAFjTfuhH8aXiWc="
@@ -4148,7 +4148,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 781,
+									"left": 784,
 									"top": 237,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4169,7 +4169,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 778,
+									"left": 781,
 									"top": 222,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4190,7 +4190,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 788,
+									"left": 791,
 									"top": 266,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4211,8 +4211,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 754,
-									"top": 243,
+									"left": 760,
+									"top": 242,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -4232,8 +4232,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 753,
-									"top": 230,
+									"left": 759,
+									"top": 229,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -4252,9 +4252,9 @@
 										"$ref": "AAAAAAFjTf4lF82YGSc="
 									},
 									"font": "Arial;13;0",
-									"left": 752,
-									"top": 271,
-									"width": 7.22998046875,
+									"left": 758,
+									"top": 270,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -4296,7 +4296,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 805,
-									"top": 218,
+									"top": 219,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -4315,7 +4315,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 810,
-									"top": 256,
+									"top": 257,
 									"width": 20,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -4366,7 +4366,7 @@
 								"$ref": "AAAAAAFcoJUnz3fvkEQ="
 							},
 							"lineStyle": 1,
-							"points": "732:270;839:246",
+							"points": "738:269;839:247",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFjTf4lGM2cmEM="
@@ -4423,7 +4423,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 787,
+									"left": 790,
 									"top": 334,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4444,7 +4444,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 793,
+									"left": 796,
 									"top": 320,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4465,7 +4465,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 774,
+									"left": 777,
 									"top": 361,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4486,8 +4486,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 761,
-									"top": 322,
+									"left": 767,
+									"top": 323,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -4507,8 +4507,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 769,
-									"top": 311,
+									"left": 775,
+									"top": 312,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -4527,9 +4527,9 @@
 										"$ref": "AAAAAAFjTf46r85KeCI="
 									},
 									"font": "Arial;13;0",
-									"left": 743,
-									"top": 345,
-									"width": 7.22998046875,
+									"left": 749,
+									"top": 346,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -4551,7 +4551,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 813,
-									"top": 346,
+									"top": 345,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -4571,7 +4571,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 817,
-									"top": 333,
+									"top": 332,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -4590,8 +4590,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 803,
-									"top": 373,
-									"width": 7.22998046875,
+									"top": 372,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -4641,7 +4641,7 @@
 								"$ref": "AAAAAAFcoJUnz3fvkEQ="
 							},
 							"lineStyle": 1,
-							"points": "732:331;831:377",
+							"points": "738:332;831:376",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFjTf46r85Obfc="
@@ -5738,7 +5738,7 @@
 											"font": "Arial;13;1",
 											"left": 133,
 											"top": 199,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "通用非业务字段"
 										},
@@ -5752,7 +5752,7 @@
 											"font": "Arial;13;0",
 											"left": -160,
 											"top": 112,
-											"width": 155.27015686035156,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -5773,7 +5773,7 @@
 									"font": "Arial;13;0",
 									"left": 128,
 									"top": 192,
-									"width": 300.78631591796875,
+									"width": 311.5517578125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7yGi0QkRjgwM="
@@ -5810,7 +5810,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 222,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+create_time: datetime 记录新增时间",
 											"horizontalAlignment": 0
@@ -5827,7 +5827,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 237,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+update_time: datetime 记录修改时间",
 											"horizontalAlignment": 0
@@ -5844,7 +5844,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 252,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+version: int 版本号,默认=0",
 											"horizontalAlignment": 0
@@ -5861,7 +5861,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 267,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+deleted: tinyint 1:逻辑已删除,0:逻辑未删除,默认:0",
 											"horizontalAlignment": 0
@@ -5878,7 +5878,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 282,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+create_user_id: int 创建用户主键",
 											"horizontalAlignment": 0
@@ -5895,7 +5895,7 @@
 											"font": "Arial;13;0",
 											"left": 133,
 											"top": 297,
-											"width": 290.78631591796875,
+											"width": 301.5517578125,
 											"height": 13,
 											"text": "+update_user_id: int 修改用户主键",
 											"horizontalAlignment": 0
@@ -5904,7 +5904,7 @@
 									"font": "Arial;13;0",
 									"left": 128,
 									"top": 217,
-									"width": 300.78631591796875,
+									"width": 311.5517578125,
 									"height": 98
 								},
 								{
@@ -5919,7 +5919,7 @@
 									"font": "Arial;13;0",
 									"left": 128,
 									"top": 315,
-									"width": 300.78631591796875,
+									"width": 311.5517578125,
 									"height": 10
 								},
 								{
@@ -5959,7 +5959,7 @@
 							"containerChangeable": true,
 							"left": 128,
 							"top": 192,
-							"width": 300.78631591796875,
+							"width": 311.5517578125,
 							"height": 133,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7yGi0QkRi+4Y="
@@ -6006,7 +6006,7 @@
 											"font": "Arial;13;0",
 											"left": 213,
 											"top": 373,
-											"width": 153.54351806640625,
+											"width": 161.5859375,
 											"height": 13,
 											"text": "«商户封顶额活动表»"
 										},
@@ -6019,7 +6019,7 @@
 											"font": "Arial;13;1",
 											"left": 213,
 											"top": 388,
-											"width": 153.54351806640625,
+											"width": 161.5859375,
 											"height": 13,
 											"text": "mart_cap"
 										},
@@ -6033,7 +6033,7 @@
 											"font": "Arial;13;0",
 											"left": -960,
 											"top": 368,
-											"width": 155.27015686035156,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -6054,7 +6054,7 @@
 									"font": "Arial;13;0",
 									"left": 208,
 									"top": 368,
-									"width": 163.54351806640625,
+									"width": 171.5859375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7yG97GkTf5Eo="
@@ -6091,7 +6091,7 @@
 											"font": "Arial;13;0",
 											"left": 213,
 											"top": 411,
-											"width": 153.54351806640625,
+											"width": 161.5859375,
 											"height": 13,
 											"text": "+int: int 主键自增",
 											"horizontalAlignment": 0
@@ -6108,7 +6108,7 @@
 											"font": "Arial;13;0",
 											"left": 213,
 											"top": 426,
-											"width": 153.54351806640625,
+											"width": 161.5859375,
 											"height": 13,
 											"text": "+start_date: date 开始日期",
 											"horizontalAlignment": 0
@@ -6125,7 +6125,7 @@
 											"font": "Arial;13;0",
 											"left": 213,
 											"top": 441,
-											"width": 153.54351806640625,
+											"width": 161.5859375,
 											"height": 13,
 											"text": "+end_date: date 截止日期",
 											"horizontalAlignment": 0
@@ -6134,7 +6134,7 @@
 									"font": "Arial;13;0",
 									"left": 208,
 									"top": 406,
-									"width": 163.54351806640625,
+									"width": 171.5859375,
 									"height": 53
 								},
 								{
@@ -6149,7 +6149,7 @@
 									"font": "Arial;13;0",
 									"left": 208,
 									"top": 459,
-									"width": 163.54351806640625,
+									"width": 171.5859375,
 									"height": 10
 								},
 								{
@@ -6189,7 +6189,7 @@
 							"containerChangeable": true,
 							"left": 208,
 							"top": 368,
-							"width": 163.54351806640625,
+							"width": 171.5859375,
 							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7yG97GkTe33w="
@@ -6249,7 +6249,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 181,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "«封顶额活动批次表»"
 										},
@@ -6262,7 +6262,7 @@
 											"font": "Arial;13;1",
 											"left": 493,
 											"top": 196,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "cap_batch"
 										},
@@ -6276,7 +6276,7 @@
 											"font": "Arial;13;0",
 											"left": 96,
 											"top": -320,
-											"width": 155.27015686035156,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -6297,7 +6297,7 @@
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 176,
-									"width": 436.57537841796875,
+									"width": 442.7958984375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7yW1B9kVA+r0="
@@ -6334,7 +6334,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 219,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+id: int 自增主键",
 											"horizontalAlignment": 0
@@ -6351,7 +6351,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 234,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+batch_id: int 关联券批次ticket_batch主键",
 											"horizontalAlignment": 0
@@ -6368,7 +6368,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 249,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+cap_id: int 关联商户封顶额mart_cap表主键",
 											"horizontalAlignment": 0
@@ -6385,7 +6385,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 264,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+mart_cap_ratio: decimal(10,2) 占有卖场封顶额的比例,不可为空,默认=0",
 											"horizontalAlignment": 0
@@ -6402,7 +6402,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 279,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+is_new_share: tinyint 达到卖场封顶额后是否设置新分摊, 0:否,1:是,默认:1",
 											"horizontalAlignment": 0
@@ -6419,7 +6419,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 294,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+merchant_share: decimal(10,2) 商户新分摊比例",
 											"horizontalAlignment": 0
@@ -6436,7 +6436,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 309,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+mart_share: decimal(10,2) 卖场新分摊比例",
 											"horizontalAlignment": 0
@@ -6453,7 +6453,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 324,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+merchant_price: decimal(10,2) 商户分摊金额",
 											"horizontalAlignment": 0
@@ -6470,7 +6470,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 339,
-											"width": 426.57537841796875,
+											"width": 432.7958984375,
 											"height": 13,
 											"text": "+mart_price: decimal(10,2)卖场分摊金额",
 											"horizontalAlignment": 0
@@ -6479,7 +6479,7 @@
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 214,
-									"width": 436.57537841796875,
+									"width": 442.7958984375,
 									"height": 143
 								},
 								{
@@ -6494,7 +6494,7 @@
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 357,
-									"width": 436.57537841796875,
+									"width": 442.7958984375,
 									"height": 10
 								},
 								{
@@ -6534,7 +6534,7 @@
 							"containerChangeable": true,
 							"left": 488,
 							"top": 176,
-							"width": 436.57537841796875,
+							"width": 442.7958984375,
 							"height": 191,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7yW1B9kU/qUk="
@@ -6573,7 +6573,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 424,
+									"left": 428,
 									"top": 347,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6594,7 +6594,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 419,
+									"left": 423,
 									"top": 333,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6615,7 +6615,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 433,
+									"left": 437,
 									"top": 376,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -6636,8 +6636,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 391,
-									"top": 360,
+									"left": 399,
+									"top": 358,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -6657,8 +6657,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 389,
-									"top": 346,
+									"left": 397,
+									"top": 344,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -6677,9 +6677,9 @@
 										"$ref": "AAAAAAF7ycOeqUpiPrg="
 									},
 									"font": "Arial;13;0",
-									"left": 416,
-									"top": 370,
-									"width": 19.5126953125,
+									"left": 424,
+									"top": 368,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.10963244377711687,
 									"distance": 54.57105459856901,
@@ -6701,7 +6701,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 457,
-									"top": 336,
+									"top": 337,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -6721,7 +6721,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 450,
-									"top": 324,
+									"top": 325,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -6741,7 +6741,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 470,
-									"top": 361,
+									"top": 362,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -6786,7 +6786,7 @@
 								"$ref": "AAAAAAF7yG97GkTdtmw="
 							},
 							"lineStyle": 1,
-							"points": "372:389;487:348",
+							"points": "380:387;487:349",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7ycOeqkpmFqU="
@@ -6851,7 +6851,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 421,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "«倍数模型»"
 										},
@@ -6864,7 +6864,7 @@
 											"font": "Arial;13;1",
 											"left": 501,
 											"top": 436,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "multiple_model"
 										},
@@ -6878,7 +6878,7 @@
 											"font": "Arial;13;0",
 											"left": -624,
 											"top": 480,
-											"width": 155.27015686035156,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -6899,7 +6899,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 416,
-									"width": 331.4898681640625,
+									"width": 344.50244140625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7zXyeITZj/Ks="
@@ -6936,7 +6936,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 459,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "+id: int 自增主键",
 											"horizontalAlignment": 0
@@ -6953,7 +6953,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 474,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "+cap_id: int 关联封顶额活动表主键",
 											"horizontalAlignment": 0
@@ -6970,7 +6970,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 489,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "+multiple_num: decimal(10,2) 租金倍数",
 											"horizontalAlignment": 0
@@ -6987,7 +6987,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 504,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "+day_num: int 活动天数",
 											"horizontalAlignment": 0
@@ -7004,7 +7004,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 519,
-											"width": 321.4898681640625,
+											"width": 334.50244140625,
 											"height": 13,
 											"text": "+model_value: varchar(255) 模型值=租金倍数*活动天数",
 											"horizontalAlignment": 0
@@ -7013,7 +7013,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 454,
-									"width": 331.4898681640625,
+									"width": 344.50244140625,
 									"height": 83
 								},
 								{
@@ -7028,7 +7028,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 537,
-									"width": 331.4898681640625,
+									"width": 344.50244140625,
 									"height": 10
 								},
 								{
@@ -7068,7 +7068,7 @@
 							"containerChangeable": true,
 							"left": 496,
 							"top": 416,
-							"width": 331.4898681640625,
+							"width": 344.50244140625,
 							"height": 131,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7zXyeITZitd4="
@@ -7107,7 +7107,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 435,
+									"left": 439,
 									"top": 421,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7128,7 +7128,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 438,
+									"left": 442,
 									"top": 406,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7149,7 +7149,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 430,
+									"left": 434,
 									"top": 450,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7170,8 +7170,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 400,
-									"top": 415,
+									"left": 408,
+									"top": 416,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -7191,8 +7191,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 404,
-									"top": 402,
+									"left": 412,
+									"top": 403,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -7211,9 +7211,9 @@
 										"$ref": "AAAAAAF7zbwOrTm8Mbs="
 									},
 									"font": "Arial;13;0",
-									"left": 415,
-									"top": 446,
-									"width": 19.5126953125,
+									"left": 423,
+									"top": 447,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.20604816354599248,
 									"distance": 55.97320787662612,
@@ -7235,7 +7235,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 427,
+									"top": 426,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -7255,7 +7255,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 414,
+									"top": 413,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -7275,7 +7275,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 455,
+									"top": 454,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -7320,7 +7320,7 @@
 								"$ref": "AAAAAAF7yG97GkTdtmw="
 							},
 							"lineStyle": 1,
-							"points": "372:432;495:453",
+							"points": "380:433;495:452",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7zbwOrjnA87Y="
@@ -7385,7 +7385,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 581,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "«封顶额商户表»"
 										},
@@ -7398,7 +7398,7 @@
 											"font": "Arial;13;1",
 											"left": 509,
 											"top": 596,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "cap_merchant"
 										},
@@ -7412,7 +7412,7 @@
 											"font": "Arial;13;0",
 											"left": -448,
 											"top": 80,
-											"width": 155.27015686035156,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -7433,7 +7433,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 576,
-									"width": 378.0816650390625,
+									"width": 393.1064453125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7zbyISDtJ3OU="
@@ -7470,7 +7470,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 619,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+id: int 主键自增",
 											"horizontalAlignment": 0
@@ -7487,7 +7487,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 634,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+cap_id: int 关联封顶额活动表主键",
 											"horizontalAlignment": 0
@@ -7504,7 +7504,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 649,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+model_id: int 关联商户倍数模型表主键",
 											"horizontalAlignment": 0
@@ -7521,7 +7521,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 664,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+resource_id: int 关联物业资源展位表property_resources表主键",
 											"horizontalAlignment": 0
@@ -7538,7 +7538,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 679,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+merchant_show: varchar(50) 商户展位号",
 											"horizontalAlignment": 0
@@ -7555,7 +7555,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 694,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+merchant_area: char(3) 商户区域",
 											"horizontalAlignment": 0
@@ -7572,7 +7572,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 709,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+show_space: decimal(10,2) 展位建筑面积",
 											"horizontalAlignment": 0
@@ -7589,7 +7589,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 724,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+day_rent: decimal(20,10) 每日租金",
 											"horizontalAlignment": 0
@@ -7606,7 +7606,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 739,
-											"width": 368.0816650390625,
+											"width": 383.1064453125,
 											"height": 13,
 											"text": "+mart_cap_value: int 卖场封顶额",
 											"horizontalAlignment": 0
@@ -7615,7 +7615,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 614,
-									"width": 378.0816650390625,
+									"width": 393.1064453125,
 									"height": 143
 								},
 								{
@@ -7630,7 +7630,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 757,
-									"width": 378.0816650390625,
+									"width": 393.1064453125,
 									"height": 10
 								},
 								{
@@ -7670,7 +7670,7 @@
 							"containerChangeable": true,
 							"left": 504,
 							"top": 576,
-							"width": 378.0816650390625,
+							"width": 393.1064453125,
 							"height": 191,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7zbyISDtIQoE="
@@ -7709,8 +7709,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 688,
-									"top": 552,
+									"left": 694,
+									"top": 551,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -7730,8 +7730,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 703,
-									"top": 550,
+									"left": 709,
+									"top": 548,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -7751,8 +7751,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 659,
-									"top": 557,
+									"left": 665,
+									"top": 558,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -7772,8 +7772,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 690,
-									"top": 564,
+									"left": 697,
+									"top": 563,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -7793,8 +7793,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 704,
-									"top": 564,
+									"left": 710,
+									"top": 563,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -7814,7 +7814,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 662,
+									"left": 669,
 									"top": 564,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -7835,8 +7835,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 687,
-									"top": 541,
+									"left": 693,
+									"top": 540,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -7855,7 +7855,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 699,
+									"left": 705,
 									"top": 536,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -7875,7 +7875,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 660,
+									"left": 666,
 									"top": 549,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -7921,7 +7921,7 @@
 								"$ref": "AAAAAAF7zXyeIDZhoQY="
 							},
 							"lineStyle": 1,
-							"points": "672:547;676:575",
+							"points": "678:547;683:575",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7zcNp/UOt7S8="
@@ -7978,7 +7978,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 461,
+									"left": 467,
 									"top": 503,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7999,7 +7999,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 469,
+									"left": 475,
 									"top": 490,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8020,7 +8020,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 446,
+									"left": 452,
 									"top": 528,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -8041,8 +8041,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 399,
-									"top": 464,
+									"left": 404,
+									"top": 463,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -8062,8 +8062,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 408,
-									"top": 454,
+									"left": 413,
+									"top": 453,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -8083,7 +8083,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 381,
+									"left": 386,
 									"top": 485,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -8104,7 +8104,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 524,
+									"left": 531,
 									"top": 542,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -8124,7 +8124,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 530,
+									"left": 536,
 									"top": 530,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -8144,7 +8144,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 514,
+									"left": 521,
 									"top": 568,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -8192,7 +8192,7 @@
 								"$ref": "AAAAAAF7yG97GkTdtmw="
 							},
 							"lineStyle": 1,
-							"points": "370:469;539:575",
+							"points": "375:469;546:575",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF70vLqQbeFwy4="
@@ -8256,8 +8256,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 397,
-											"width": 324.0162353515625,
+											"top": 389,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "«收券记录表»"
 										},
@@ -8269,8 +8269,8 @@
 											},
 											"font": "Arial;13;1",
 											"left": 941,
-											"top": 412,
-											"width": 324.0162353515625,
+											"top": 404,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "ticket_pay_record"
 										},
@@ -8283,8 +8283,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 1376,
-											"top": -528,
-											"width": 155.27015686035156,
+											"top": -544,
+											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
 										},
@@ -8297,15 +8297,15 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 1376,
-											"top": -528,
+											"top": -544,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 936,
-									"top": 392,
-									"width": 334.0162353515625,
+									"top": 384,
+									"width": 341.8681640625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF70/wLEbgMoDI="
@@ -8341,8 +8341,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 435,
-											"width": 324.0162353515625,
+											"top": 427,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+is_new_share: tinyint(2) 是否使用新分摊0否,1是,默认:0",
 											"horizontalAlignment": 0
@@ -8358,8 +8358,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 450,
-											"width": 324.0162353515625,
+											"top": 442,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+cap_id: int(11) 关联封顶额活动表主键",
 											"horizontalAlignment": 0
@@ -8375,8 +8375,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 465,
-											"width": 324.0162353515625,
+											"top": 457,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+mart_share_ratio: decimal(10,2)卖场分摊比",
 											"horizontalAlignment": 0
@@ -8392,8 +8392,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 480,
-											"width": 324.0162353515625,
+											"top": 472,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+merchant_show: varchar(50) 商户展位号",
 											"horizontalAlignment": 0
@@ -8409,8 +8409,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 495,
-											"width": 324.0162353515625,
+											"top": 487,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+mart_share_price: decimal(10,2) 卖场分摊金额",
 											"horizontalAlignment": 0
@@ -8426,18 +8426,35 @@
 											},
 											"font": "Arial;13;0",
 											"left": 941,
-											"top": 510,
-											"width": 324.0162353515625,
+											"top": 502,
+											"width": 331.8681640625,
 											"height": 13,
 											"text": "+merchant_share_ratio: decimal(10,2) 商户分摊比",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpgFv6CBv+U=",
+											"_parent": {
+												"$ref": "AAAAAAF70/wLEbgQBis="
+											},
+											"model": {
+												"$ref": "AAAAAAF/TpftcaBuxbA="
+											},
+											"font": "Arial;13;0",
+											"left": 941,
+											"top": 517,
+											"width": 331.8681640625,
+											"height": 13,
+											"text": "+1212",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 936,
-									"top": 430,
-									"width": 334.0162353515625,
-									"height": 98
+									"top": 422,
+									"width": 341.8681640625,
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -8450,8 +8467,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 936,
-									"top": 528,
-									"width": 334.0162353515625,
+									"top": 535,
+									"width": 341.8681640625,
 									"height": 10
 								},
 								{
@@ -8466,7 +8483,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 688,
-									"top": -264,
+									"top": -272,
 									"width": 10,
 									"height": 10
 								},
@@ -8482,7 +8499,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 688,
-									"top": -264,
+									"top": -272,
 									"width": 10,
 									"height": 10
 								}
@@ -8490,9 +8507,9 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 936,
-							"top": 392,
-							"width": 334.0162353515625,
-							"height": 146,
+							"top": 384,
+							"width": 341.8681640625,
+							"height": 161,
 							"nameCompartment": {
 								"$ref": "AAAAAAF70/wLELgLYmM="
 							},
@@ -8530,8 +8547,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 933,
-									"top": 359,
+									"left": 928,
+									"top": 355,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -8551,8 +8568,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 939,
-									"top": 345,
+									"left": 934,
+									"top": 341,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -8572,8 +8589,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 920,
-									"top": 386,
+									"left": 915,
+									"top": 382,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -8593,7 +8610,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 931,
+									"left": 935,
 									"top": 358,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -8614,7 +8631,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 939,
+									"left": 943,
 									"top": 347,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -8635,7 +8652,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 916,
+									"left": 920,
 									"top": 381,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -8656,8 +8673,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 935,
-									"top": 360,
+									"left": 922,
+									"top": 352,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -8676,8 +8693,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 938,
-									"top": 347,
+									"left": 925,
+									"top": 339,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -8696,8 +8713,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 927,
-									"top": 386,
+									"left": 914,
+									"top": 378,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -8742,7 +8759,7 @@
 								"$ref": "AAAAAAF7yW1B9kU+sgk="
 							},
 							"lineStyle": 1,
-							"points": "902:367;952:391",
+							"points": "906:367;939:383",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF71ARh4r3bejs="
@@ -8805,7 +8822,7 @@
 								"$ref": "AAAAAAF70/wLELgKCvU="
 							},
 							"lineStyle": 1,
-							"points": "1116:391;1124:352"
+							"points": "1119:383;1125:352"
 						},
 						{
 							"_type": "UMLAssociationView",
@@ -8828,7 +8845,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 435,
+									"left": 439,
 									"top": 421,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8849,7 +8866,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 438,
+									"left": 442,
 									"top": 406,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8870,7 +8887,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 430,
+									"left": 434,
 									"top": 450,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -8891,8 +8908,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 400,
-									"top": 415,
+									"left": 408,
+									"top": 416,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -8912,8 +8929,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 404,
-									"top": 402,
+									"left": 412,
+									"top": 403,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -8932,9 +8949,9 @@
 										"$ref": "AAAAAAF7zbwOrTm8Mbs="
 									},
 									"font": "Arial;13;0",
-									"left": 415,
-									"top": 446,
-									"width": 19.5126953125,
+									"left": 423,
+									"top": 447,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": -0.20604816354599248,
 									"distance": 55.97320787662612,
@@ -8956,7 +8973,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 427,
+									"top": 426,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -8976,7 +8993,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 414,
+									"top": 413,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -8996,7 +9013,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 471,
-									"top": 455,
+									"top": 454,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -9045,7 +9062,7 @@
 								"$ref": "AAAAAAF7yG97GkTdtmw="
 							},
 							"lineStyle": 1,
-							"points": "372:432;495:453",
+							"points": "380:433;495:452",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9MkoU2Xly5xw="
@@ -9165,7 +9182,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 397,
+									"left": 405,
 									"top": 391,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -9186,7 +9203,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 398,
+									"left": 406,
 									"top": 378,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -9207,7 +9224,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 394,
+									"left": 402,
 									"top": 419,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -9229,7 +9246,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 914,
-									"top": 387,
+									"top": 386,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -9248,8 +9265,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 916,
-									"top": 373,
+									"left": 915,
+									"top": 372,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -9269,7 +9286,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 910,
-									"top": 414,
+									"top": 413,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -9314,7 +9331,7 @@
 								"$ref": "AAAAAAF7yG97GkTdtmw="
 							},
 							"lineStyle": 1,
-							"points": "372:414;859:392;935:415",
+							"points": "380:414;859:392;935:414",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9MkpEYXydtbc="
@@ -9879,8 +9896,98 @@
 						"$ref": "AAAAAAF7yGgiAkPvyJY="
 					},
 					"name": "ticket_pay_record",
-					"stereotype": "收券记录表",
+					"stereotype": "合同收券记录表",
 					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/TqGnnqSqAlA=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "id",
+							"stereotype": "主键",
+							"type": "int(11)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/TpftcaBuxbA=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "pact_number",
+							"stereotype": "合同号",
+							"type": " varchar(50)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tpj9D6N4/8k=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "ticket_usecode",
+							"stereotype": "电子券使用码",
+							"type": " varchar(100)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/TpqOa6OLQyw=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "status",
+							"stereotype": "状态：0正常收款状态,1退款状态,2冲红状态",
+							"type": "tinyint(2)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/TptcJqOa9eA=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "pact_id",
+							"stereotype": "合同表product_conume主键",
+							"type": "int(11)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tpv7M6Or7kQ=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "ticket_batch_id",
+							"stereotype": "关联电子券批次表主键",
+							"type": "int(11)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tpy1fKO6ydE=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "ticket_price",
+							"stereotype": "券面额",
+							"type": "decimal(10,2)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tp1RwqPK3Mg=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "merchant_share_price",
+							"stereotype": "商户分摊金额",
+							"type": "decimal(10,2)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tp3eIaPZjoA=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "record_date",
+							"stereotype": "记录新增时间",
+							"type": "datetime"
+						},
 						{
 							"_type": "UMLAttribute",
 							"_id": "AAAAAAF70/yuRbl4LTw=",
@@ -9936,6 +10043,26 @@
 							},
 							"name": "merchant_share_ratio",
 							"type": "decimal(10,2) 商户分摊比"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tx4DY6TWcKI=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "invoice_number",
+							"stereotype": "发票号",
+							"type": "varchar(100)"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/Tx7/f6Tg27w=",
+							"_parent": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"name": "check_status",
+							"stereotype": "审核状态  0:未审 1:已审 默认:0",
+							"type": "tinyint(1)"
 						}
 					]
 				}
@@ -10012,7 +10139,7 @@
 											"font": "Arial;13;0",
 											"left": -496,
 											"top": 112,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -10192,7 +10319,7 @@
 											"font": "Arial;13;0",
 											"left": 208,
 											"top": -176,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -10372,7 +10499,7 @@
 											"font": "Arial;13;0",
 											"left": -208,
 											"top": 64,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -10552,7 +10679,7 @@
 											"font": "Arial;13;0",
 											"left": -560,
 											"top": 64,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -10732,7 +10859,7 @@
 											"font": "Arial;13;0",
 											"left": -288,
 											"top": -64,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -10912,7 +11039,7 @@
 											"font": "Arial;13;0",
 											"left": -256,
 											"top": -80,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -11092,7 +11219,7 @@
 											"font": "Arial;13;0",
 											"left": -272,
 											"top": -64,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -11272,7 +11399,7 @@
 											"font": "Arial;13;0",
 											"left": -240,
 											"top": -64,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -12110,7 +12237,7 @@
 											"font": "Arial;13;0",
 											"left": 976,
 											"top": -432,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -12840,7 +12967,7 @@
 											"font": "Arial;13;1",
 											"left": 845,
 											"top": 305,
-											"width": 55.59912109375,
+											"width": 60.8359375,
 											"height": 13,
 											"text": "git  or db"
 										},
@@ -12854,7 +12981,7 @@
 											"font": "Arial;13;0",
 											"left": -128,
 											"top": 32,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -12875,7 +13002,7 @@
 									"font": "Arial;13;0",
 									"left": 840,
 									"top": 298,
-									"width": 65.59912109375,
+									"width": 70.8359375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9S/CGdJdWLZo="
@@ -12959,7 +13086,7 @@
 							"containerChangeable": true,
 							"left": 840,
 							"top": 288,
-							"width": 75.59912109375,
+							"width": 80.8359375,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9S/CGdJdVnE4="
@@ -13000,8 +13127,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 817,
-									"top": 299,
+									"left": 816,
+									"top": 300,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -13021,8 +13148,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 815,
-									"top": 284,
+									"left": 813,
+									"top": 285,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -13042,8 +13169,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 822,
-									"top": 328,
+									"left": 823,
+									"top": 329,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -13061,7 +13188,7 @@
 								"$ref": "AAAAAAF9S+2R5pX6Ulc="
 							},
 							"lineStyle": 1,
-							"points": "801:324;839:317",
+							"points": "801:325;839:317",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9S/D5rJeBohQ="
@@ -13128,7 +13255,7 @@
 											"font": "Arial;13;0",
 											"left": -464,
 											"top": 160,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -13576,7 +13703,7 @@
 											"font": "Arial;13;1",
 											"left": 353,
 											"top": 343,
-											"width": 103.33349609375,
+											"width": 105.33935546875,
 											"height": 13,
 											"text": "nacos Discovery"
 										},
@@ -13590,7 +13717,7 @@
 											"font": "Arial;13;0",
 											"left": -32,
 											"top": -32,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -13611,7 +13738,7 @@
 									"font": "Arial;13;0",
 									"left": 348,
 									"top": 336,
-									"width": 113.33349609375,
+									"width": 115.33935546875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9TAJhQZjtn7c="
@@ -13695,7 +13822,7 @@
 							"containerChangeable": true,
 							"left": 328,
 							"top": 336,
-							"width": 133.33349609375,
+							"width": 135.33935546875,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9TAJhQZjsodI="
@@ -13756,7 +13883,7 @@
 											"font": "Arial;13;1",
 											"left": 105,
 											"top": 383,
-											"width": 135.306640625,
+											"width": 142.94287109375,
 											"height": 13,
 											"text": "springCloud GateWay"
 										},
@@ -13770,7 +13897,7 @@
 											"font": "Arial;13;0",
 											"left": -240,
 											"top": 32,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -13791,7 +13918,7 @@
 									"font": "Arial;13;0",
 									"left": 100,
 									"top": 376,
-									"width": 145.306640625,
+									"width": 152.94287109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9TBGGspkd8zM="
@@ -13875,7 +14002,7 @@
 							"containerChangeable": true,
 							"left": 80,
 							"top": 376,
-							"width": 165.306640625,
+							"width": 172.94287109375,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9TBGGspkc4Is="
@@ -13935,7 +14062,7 @@
 											"font": "Arial;13;1",
 											"left": 713,
 											"top": 335,
-											"width": 80.17724609375,
+											"width": 82.91943359375,
 											"height": 13,
 											"text": "nacos config"
 										},
@@ -13948,7 +14075,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -32,
-											"width": 116.27011108398438,
+											"width": 120.44677734375,
 											"height": 13,
 											"text": "(from 微服务架构图)"
 										},
@@ -13968,7 +14095,7 @@
 									"font": "Arial;13;0",
 									"left": 708,
 									"top": 328,
-									"width": 90.17724609375,
+									"width": 92.91943359375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9TBLYtZlWLLg="
@@ -14048,7 +14175,7 @@
 							"containerChangeable": true,
 							"left": 688,
 							"top": 328,
-							"width": 110.17724609375,
+							"width": 112.91943359375,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9TBLYtZlVOGE="
@@ -14422,6 +14549,492 @@
 						"$ref": "AAAAAAF9S+PeNpI94KI="
 					},
 					"name": "nacos config"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF/TnN//ZMHlIk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "电子券发票",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF/TnO5qZNKFj4=",
+					"_parent": {
+						"$ref": "AAAAAAF/TnN//ZMHlIk="
+					},
+					"name": "ClassDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF/TpfWM6A+ItU=",
+							"_parent": {
+								"$ref": "AAAAAAF/TnO5qZNKFj4="
+							},
+							"model": {
+								"$ref": "AAAAAAF70/wLELgIUaA="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF/TpfWM6A/Dps=",
+									"_parent": {
+										"$ref": "AAAAAAF/TpfWM6A+ItU="
+									},
+									"model": {
+										"$ref": "AAAAAAF70/wLELgIUaA="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/TpfWM6BA6N0=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6A/Dps="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 53,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«合同收券记录表»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/TpfWM6BBSZA=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6A/Dps="
+											},
+											"font": "Arial;13;1",
+											"left": 253,
+											"top": 68,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "ticket_pay_record"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/TpfWM6BC6ew=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6A/Dps="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 661,
+											"top": -990,
+											"width": 159.44677734375,
+											"height": 13,
+											"text": "(from 商户封顶额数据结构)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/TpfWM6BDhzo=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6A/Dps="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 661,
+											"top": -990,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 248,
+									"top": 48,
+									"width": 376.20263671875,
+									"height": 38,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF/TpfWM6BA6N0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF/TpfWM6BBSZA="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF/TpfWM6BC6ew="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF/TpfWM6BDhzo="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF/TpfWM6BEzEs=",
+									"_parent": {
+										"$ref": "AAAAAAF/TpfWM6A+ItU="
+									},
+									"model": {
+										"$ref": "AAAAAAF70/wLELgIUaA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TqGno6St+7E=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/TqGnnqSqAlA="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 91,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«主键»+id: int(11)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tpftd6BxQDc=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/TpftcaBuxbA="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 106,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«合同号»+pact_number:  varchar(50)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tpj9FqN70wg=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tpj9D6N4/8k="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 121,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«电子券使用码»+ticket_usecode:  varchar(100)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpqOb6OOsmE=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/TpqOa6OLQyw="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 136,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«状态：0正常收款状态,1退款状态,2冲红状态»+status: tinyint(2)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TptcKqOdI3g=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/TptcJqOa9eA="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 151,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«合同表product_conume主键»+pact_id: int(11)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tpv7N6Ou8/A=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tpv7M6Or7kQ="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 166,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«关联电子券批次表主键»+ticket_batch_id: int(11)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tpy1g6O91vI=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tpy1fKO6ydE="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 181,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«券面额»+ticket_price: decimal(10,2)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tp1Rx6PNAvs=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tp1RwqPK3Mg="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 196,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«商户分摊金额»+merchant_share_price: decimal(10,2)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tp3eJqPcDXY=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tp3eIaPZjoA="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 211,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«记录新增时间»+record_date: datetime",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BFCLc=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF70/yuRbl4LTw="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 226,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+is_new_share: tinyint(2) 是否使用新分摊0否,1是,默认:0",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BGhe4=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF9MkkIznK+LaM="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 241,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+cap_id: int(11) 关联封顶额活动表主键",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BH/hI=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF71A2sAMxN5GY="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 256,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+mart_share_ratio: decimal(10,2)卖场分摊比",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BIOaE=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF9Me37l2Nn2v8="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 271,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+merchant_show: varchar(50) 商户展位号",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BJmjc=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF9Mj16emgvt9o="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 286,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+mart_share_price: decimal(10,2) 卖场分摊金额",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/TpfWM6BK/0s=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF+hTEd2h7JZF4="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 301,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "+merchant_share_ratio: decimal(10,2) 商户分摊比",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tx4DcqTZ9Ow=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tx4DY6TWcKI="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 316,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«发票号»+invoice_number: varchar(100)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/Tx7/hqTjgD8=",
+											"_parent": {
+												"$ref": "AAAAAAF/TpfWM6BEzEs="
+											},
+											"model": {
+												"$ref": "AAAAAAF/Tx7/f6Tg27w="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 331,
+											"width": 366.20263671875,
+											"height": 13,
+											"text": "«审核状态  0:未审 1:已审 默认:0»+check_status: tinyint(1)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 248,
+									"top": 86,
+									"width": 376.20263671875,
+									"height": 263
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF/TpfWM6BL144=",
+									"_parent": {
+										"$ref": "AAAAAAF/TpfWM6A+ItU="
+									},
+									"model": {
+										"$ref": "AAAAAAF70/wLELgIUaA="
+									},
+									"font": "Arial;13;0",
+									"left": 248,
+									"top": 349,
+									"width": 376.20263671875,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF/TpfWM6BMGgk=",
+									"_parent": {
+										"$ref": "AAAAAAF/TpfWM6A+ItU="
+									},
+									"model": {
+										"$ref": "AAAAAAF70/wLELgIUaA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"top": -608,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF/TpfWM6BNwF8=",
+									"_parent": {
+										"$ref": "AAAAAAF/TpfWM6A+ItU="
+									},
+									"model": {
+										"$ref": "AAAAAAF70/wLELgIUaA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"top": -608,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 248,
+							"top": 48,
+							"width": 376.20263671875,
+							"height": 311,
+							"nameCompartment": {
+								"$ref": "AAAAAAF/TpfWM6A/Dps="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF/TpfWM6BEzEs="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF/TpfWM6BL144="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF/TpfWM6BMGgk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF/TpfWM6BNwF8="
+							}
+						}
+					]
 				}
 			]
 		}
