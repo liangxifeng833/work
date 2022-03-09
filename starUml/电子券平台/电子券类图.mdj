@@ -8584,40 +8584,6 @@
 											"height": 13,
 											"text": "+merchant_share_ratio: decimal(10,2) 商户分摊比",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF/UtoCG0wgn78=",
-											"_parent": {
-												"$ref": "AAAAAAF70/wLEbgQBis="
-											},
-											"model": {
-												"$ref": "AAAAAAF/Tx4DY6TWcKI="
-											},
-											"font": "Arial;13;0",
-											"left": 941,
-											"top": 652,
-											"width": 373.927734375,
-											"height": 13,
-											"text": "+invoice_number: 发票号 varchar(100)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF/UtoCG0wjBxk=",
-											"_parent": {
-												"$ref": "AAAAAAF70/wLEbgQBis="
-											},
-											"model": {
-												"$ref": "AAAAAAF/Tx7/f6Tg27w="
-											},
-											"font": "Arial;13;0",
-											"left": 941,
-											"top": 667,
-											"width": 373.927734375,
-											"height": 13,
-											"text": "+check_status: 审核状态  0:未审 1:已审 默认:0 tinyint(1)",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -10213,26 +10179,6 @@
 							},
 							"name": "merchant_share_ratio",
 							"type": "decimal(10,2) 商户分摊比"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF/Tx4DY6TWcKI=",
-							"_parent": {
-								"$ref": "AAAAAAF70/wLELgIUaA="
-							},
-							"name": "invoice_number",
-							"stereotype": "",
-							"type": "发票号 varchar(100)"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF/Tx7/f6Tg27w=",
-							"_parent": {
-								"$ref": "AAAAAAF70/wLELgIUaA="
-							},
-							"name": "check_status",
-							"stereotype": "",
-							"type": "审核状态  0:未审 1:已审 默认:0 tinyint(1)"
 						}
 					]
 				}
@@ -14765,9 +14711,9 @@
 												"$ref": "AAAAAAF/TpfWM6A/Dps="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 45,
-											"width": 359,
+											"left": 589,
+											"top": 285,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "«合同收券记录表»"
 										},
@@ -14778,9 +14724,9 @@
 												"$ref": "AAAAAAF/TpfWM6A/Dps="
 											},
 											"font": "Arial;13;1",
-											"left": 253,
-											"top": 60,
-											"width": 359,
+											"left": 589,
+											"top": 300,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "ticket_pay_record"
 										},
@@ -14792,8 +14738,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 661,
-											"top": -1006,
+											"left": 1333,
+											"top": -526,
 											"width": 159.44677734375,
 											"height": 13,
 											"text": "(from 商户封顶额数据结构)"
@@ -14806,16 +14752,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 661,
-											"top": -1006,
+											"left": 1333,
+											"top": -526,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 248,
-									"top": 40,
-									"width": 369,
+									"left": 584,
+									"top": 280,
+									"width": 362.87255859375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF/TpfWM6BA6N0="
@@ -14850,9 +14796,9 @@
 												"$ref": "AAAAAAF/TqGnnqSqAlA="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 83,
-											"width": 359,
+											"left": 589,
+											"top": 323,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+id: 主键  int(11)",
 											"horizontalAlignment": 0
@@ -14867,9 +14813,9 @@
 												"$ref": "AAAAAAF/TpftcaBuxbA="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 98,
-											"width": 359,
+											"left": 589,
+											"top": 338,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+pact_number:  合同号 varchar(50)",
 											"horizontalAlignment": 0
@@ -14884,9 +14830,9 @@
 												"$ref": "AAAAAAF/Tpj9D6N4/8k="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 113,
-											"width": 359,
+											"left": 589,
+											"top": 353,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+ticket_usecode:  电子券使用码 varchar(100)",
 											"horizontalAlignment": 0
@@ -14901,9 +14847,9 @@
 												"$ref": "AAAAAAF/TpqOa6OLQyw="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 128,
-											"width": 359,
+											"left": 589,
+											"top": 368,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+status: 状态：0正常收款状态,1退款状态,2冲红状态 tinyint(2)",
 											"horizontalAlignment": 0
@@ -14918,9 +14864,9 @@
 												"$ref": "AAAAAAF/TptcJqOa9eA="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 143,
-											"width": 359,
+											"left": 589,
+											"top": 383,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+pact_id: 合同表product_conume主键 int(11)",
 											"horizontalAlignment": 0
@@ -14935,9 +14881,9 @@
 												"$ref": "AAAAAAF/Tpv7M6Or7kQ="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 158,
-											"width": 359,
+											"left": 589,
+											"top": 398,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+ticket_batch_id: 关联电子券批次表主键 int(11)",
 											"horizontalAlignment": 0
@@ -14952,9 +14898,9 @@
 												"$ref": "AAAAAAF/Tpy1fKO6ydE="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 173,
-											"width": 359,
+											"left": 589,
+											"top": 413,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+ticket_price: 券面额 decimal(10,2)",
 											"horizontalAlignment": 0
@@ -14969,9 +14915,9 @@
 												"$ref": "AAAAAAF/Tp1RwqPK3Mg="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 188,
-											"width": 359,
+											"left": 589,
+											"top": 428,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+merchant_share_price: 商户分摊金额 decimal(10,2)",
 											"horizontalAlignment": 0
@@ -14986,9 +14932,9 @@
 												"$ref": "AAAAAAF/Tp3eIaPZjoA="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 203,
-											"width": 359,
+											"left": 589,
+											"top": 443,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+record_date: 记录新增时间 datetime",
 											"horizontalAlignment": 0
@@ -15003,9 +14949,9 @@
 												"$ref": "AAAAAAF70/yuRbl4LTw="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 218,
-											"width": 359,
+											"left": 589,
+											"top": 458,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+is_new_share: tinyint(2) 是否使用新分摊0否,1是,默认:0",
 											"horizontalAlignment": 0
@@ -15020,9 +14966,9 @@
 												"$ref": "AAAAAAF9MkkIznK+LaM="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 233,
-											"width": 359,
+											"left": 589,
+											"top": 473,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+cap_id: int(11) 关联封顶额活动表主键",
 											"horizontalAlignment": 0
@@ -15037,9 +14983,9 @@
 												"$ref": "AAAAAAF71A2sAMxN5GY="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 248,
-											"width": 359,
+											"left": 589,
+											"top": 488,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+mart_share_ratio: decimal(10,2)卖场分摊比",
 											"horizontalAlignment": 0
@@ -15054,9 +15000,9 @@
 												"$ref": "AAAAAAF9Me37l2Nn2v8="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 263,
-											"width": 359,
+											"left": 589,
+											"top": 503,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+merchant_show: varchar(50) 商户展位号",
 											"horizontalAlignment": 0
@@ -15071,9 +15017,9 @@
 												"$ref": "AAAAAAF9Mj16emgvt9o="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 278,
-											"width": 359,
+											"left": 589,
+											"top": 518,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+mart_share_price: decimal(10,2) 卖场分摊金额",
 											"horizontalAlignment": 0
@@ -15088,53 +15034,19 @@
 												"$ref": "AAAAAAF+hTEd2h7JZF4="
 											},
 											"font": "Arial;13;0",
-											"left": 253,
-											"top": 293,
-											"width": 359,
+											"left": 589,
+											"top": 533,
+											"width": 352.87255859375,
 											"height": 13,
 											"text": "+merchant_share_ratio: decimal(10,2) 商户分摊比",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF/Tx4DcqTZ9Ow=",
-											"_parent": {
-												"$ref": "AAAAAAF/TpfWM6BEzEs="
-											},
-											"model": {
-												"$ref": "AAAAAAF/Tx4DY6TWcKI="
-											},
-											"font": "Arial;13;0",
-											"left": 253,
-											"top": 308,
-											"width": 359,
-											"height": 13,
-											"text": "+invoice_number: 发票号 varchar(100)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF/Tx7/hqTjgD8=",
-											"_parent": {
-												"$ref": "AAAAAAF/TpfWM6BEzEs="
-											},
-											"model": {
-												"$ref": "AAAAAAF/Tx7/f6Tg27w="
-											},
-											"font": "Arial;13;0",
-											"left": 253,
-											"top": 323,
-											"width": 359,
-											"height": 13,
-											"text": "+check_status: 审核状态  0:未审 1:已审 默认:0 tinyint(1)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 248,
-									"top": 78,
-									"width": 369,
-									"height": 263
+									"left": 584,
+									"top": 318,
+									"width": 362.87255859375,
+									"height": 233
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -15146,9 +15058,9 @@
 										"$ref": "AAAAAAF70/wLELgIUaA="
 									},
 									"font": "Arial;13;0",
-									"left": 248,
-									"top": 341,
-									"width": 369,
+									"left": 584,
+									"top": 551,
+									"width": 362.87255859375,
 									"height": 10
 								},
 								{
@@ -15162,7 +15074,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"top": -616,
+									"left": 336,
+									"top": -376,
 									"width": 10,
 									"height": 10
 								},
@@ -15177,17 +15090,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"top": -616,
+									"left": 336,
+									"top": -376,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 248,
-							"top": 40,
-							"width": 369,
-							"height": 311,
+							"left": 584,
+							"top": 280,
+							"width": 362.87255859375,
+							"height": 281,
 							"nameCompartment": {
 								"$ref": "AAAAAAF/TpfWM6A/Dps="
 							},
@@ -15203,6 +15117,1302 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAF/TpfWM6BNwF8="
 							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF/bcAKaQuyy+k=",
+							"_parent": {
+								"$ref": "AAAAAAF/TnO5qZNKFj4="
+							},
+							"model": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF/bcAKaQuz64Q=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcAKaQuyy+k="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcAKaAuwVDg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcAKaQu0HKk=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKaQuz64Q="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 37,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "«现金与电子券支付方式表»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcAKaQu1JAY=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKaQuz64Q="
+											},
+											"font": "Arial;13;1",
+											"left": 573,
+											"top": 52,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "payform_list"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcAKaQu2UzY=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKaQuz64Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -560,
+											"top": -112,
+											"width": 103.27001953125,
+											"height": 13,
+											"text": "(from 电子券发票)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcAKagu3b8c=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKaQuz64Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -560,
+											"top": -112,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 568,
+									"top": 32,
+									"width": 359.30517578125,
+									"height": 38,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF/bcAKaQu0HKk="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF/bcAKaQu1JAY="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF/bcAKaQu2UzY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF/bcAKagu3b8c="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF/bcAKagu4Lp0=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcAKaQuyy+k="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcAKaAuwVDg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcExrAvnDTk=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcExpgvkEo0="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 75,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+payform_trade: decimal(10,2) 电子券金额 ",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcPt0Av3Lig=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcPtyQv0CbA="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 90,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+payform_trade_fee: decimal(10,2) 手续费（即商户分摊额）",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcDdOQvgtG0=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcDdMAvdO0Q="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 105,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+mart_share_price: decimal(10,2) 卖场分摊额",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcSQQwwALUM=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcSQPQv9zeI="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 120,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+merchant_show: varchar(50) 商户展位号",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bca5jAwIzCs=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bca5hwwFn/8="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 135,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+invoice_number:  varchar(100) 发票号",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcdJcwwW85I=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcdJbQwTlNc="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 150,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+check_status: tinyint(1) 审核状态  0:未审 1:已审 默认:0 ",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bchZ5gwhaF4=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bchZ4gweSow="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 165,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+add_time: datetime 记录新增时间",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bckWnAwu4YU=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcAKagu4Lp0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bckWmAwre4Y="
+											},
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 180,
+											"width": 349.30517578125,
+											"height": 13,
+											"text": "+check_time: datetime 记录审核时间",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 568,
+									"top": 70,
+									"width": 359.30517578125,
+									"height": 128
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF/bcAKagu5u6g=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcAKaQuyy+k="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcAKaAuwVDg="
+									},
+									"font": "Arial;13;0",
+									"left": 568,
+									"top": 198,
+									"width": 359.30517578125,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF/bcAKagu6L4Q=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcAKaQuyy+k="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcAKaAuwVDg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -280,
+									"top": -56,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF/bcAKagu7JRc=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcAKaQuyy+k="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcAKaAuwVDg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -280,
+									"top": -56,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 568,
+							"top": 32,
+							"width": 359.30517578125,
+							"height": 176,
+							"nameCompartment": {
+								"$ref": "AAAAAAF/bcAKaQuz64Q="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF/bcAKagu4Lp0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF/bcAKagu5u6g="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF/bcAKagu6L4Q="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF/bcAKagu7JRc="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF/bcm5Ggw9DQk=",
+							"_parent": {
+								"$ref": "AAAAAAF/TnO5qZNKFj4="
+							},
+							"model": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF/bcm5Ggw+BK8=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcm5Ggw9DQk="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcm5GQw7EUE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcm5Ggw/K+0=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5Ggw+BK8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -1200,
+											"top": -496,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcm5GgxAjXQ=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5Ggw+BK8="
+											},
+											"font": "Arial;13;1",
+											"left": 189,
+											"top": 63,
+											"width": 287.16162109375,
+											"height": 13,
+											"text": "product_conume"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcm5GgxBbwA=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5Ggw+BK8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -1200,
+											"top": -496,
+											"width": 103.27001953125,
+											"height": 13,
+											"text": "(from 电子券发票)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF/bcm5GgxCl2k=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5Ggw+BK8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -1200,
+											"top": -496,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 184,
+									"top": 56,
+									"width": 297.16162109375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF/bcm5Ggw/K+0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF/bcm5GgxAjXQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF/bcm5GgxBbwA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF/bcm5GgxCl2k="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF/bcm5GgxDNxw=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcm5Ggw9DQk="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcm5GQw7EUE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bcn3VgxqzY4=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5GgxDNxw="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bcn3TQxnfgI="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 86,
+											"width": 287.16162109375,
+											"height": 13,
+											"text": "+consume_id: int(11) 主键",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bddejRixXKg=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5GgxDNxw="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bddehxiuZ5M="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 101,
+											"width": 287.16162109375,
+											"height": 13,
+											"text": "+consume_pact_value 合同额",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bdeP5hlbVms=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5GgxDNxw="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bdeP3xlYwtI="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 116,
+											"width": 287.16162109375,
+											"height": 13,
+											"text": "+consume_fact_value 实付额",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF/bdh8WxnCdP8=",
+											"_parent": {
+												"$ref": "AAAAAAF/bcm5GgxDNxw="
+											},
+											"model": {
+												"$ref": "AAAAAAF/bdh8VBm/Llw="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 131,
+											"width": 287.16162109375,
+											"height": 13,
+											"text": "+consume_back 退款状态: 1 收银员退，2 财务退",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 184,
+									"top": 81,
+									"width": 297.16162109375,
+									"height": 68
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF/bcm5GgxE/Ns=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcm5Ggw9DQk="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcm5GQw7EUE="
+									},
+									"font": "Arial;13;0",
+									"left": 184,
+									"top": 149,
+									"width": 297.16162109375,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF/bcm5GgxFPqE=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcm5Ggw9DQk="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcm5GQw7EUE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -600,
+									"top": -248,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF/bcm5GgxGmpo=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcm5Ggw9DQk="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcm5GQw7EUE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -600,
+									"top": -248,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 184,
+							"top": 56,
+							"width": 297.16162109375,
+							"height": 103,
+							"nameCompartment": {
+								"$ref": "AAAAAAF/bcm5Ggw+BK8="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF/bcm5GgxDNxw="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF/bcm5GgxE/Ns="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF/bcm5GgxFPqE="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF/bcm5GgxGmpo="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAF/bcvyaw9tZEc=",
+							"_parent": {
+								"$ref": "AAAAAAF/TnO5qZNKFj4="
+							},
+							"model": {
+								"$ref": "AAAAAAF/bcvyag9pDNU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9u5bM=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9pDNU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 524,
+									"top": 91,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9vt0Q=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9pDNU="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 525,
+									"top": 76,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9w+Y8=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9pDNU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 523,
+									"top": 120,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9xn+E=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9q2lk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 507,
+									"top": 90,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9yXIg=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9q2lk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 510,
+									"top": 77,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw9z3ik=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9q2lk="
+									},
+									"font": "Arial;13;0",
+									"left": 499,
+									"top": 118,
+									"width": 7.22998046875,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"edgePosition": 2,
+									"text": "1"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw90mpY=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9ruRg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 541,
+									"top": 92,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw91Dok=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9ruRg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 539,
+									"top": 78,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcvyaw92UP4=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9ruRg="
+									},
+									"font": "Arial;13;0",
+									"left": 534,
+									"top": 119,
+									"width": 21.68359375,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"text": "0..1"
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF/bcvyaw93Iew=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9q2lk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF/bcvyaw94nI0=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcvyaw9tZEc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcvyag9ruRg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/bcAKaQuyy+k="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/bcm5Ggw9DQk="
+							},
+							"lineStyle": 1,
+							"points": "481:111;567:114",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF/bcvyaw9u5bM="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF/bcvyaw9vt0Q="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF/bcvyaw9w+Y8="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAF/bcvyaw9xn+E="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAF/bcvyaw9yXIg="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAF/bcvyaw9z3ik="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAF/bcvyaw90mpY="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAF/bcvyaw91Dok="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAF/bcvyaw92UP4="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAF/bcvyaw93Iew="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAF/bcvyaw94nI0="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAF/bcykihC5++E=",
+							"_parent": {
+								"$ref": "AAAAAAF/TnO5qZNKFj4="
+							},
+							"model": {
+								"$ref": "AAAAAAF/bcykiRC182Q="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC6ZZk=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC182Q="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 768,
+									"top": 236,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC7QgQ=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC182Q="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 783,
+									"top": 235,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC8k9w=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC182Q="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 739,
+									"top": 237,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC9NHw=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC2QQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 768,
+									"top": 227,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC++cc=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC2QQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 781,
+									"top": 228,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihC/Lb4=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC2QQk="
+									},
+									"font": "Arial;13;0",
+									"left": 736,
+									"top": 208,
+									"width": 7.22998046875,
+									"height": 13,
+									"alpha": -1.1510459369372972,
+									"distance": 14.317821063276353,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"edgePosition": 2,
+									"text": "1"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihDAzKA=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC3Sxo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 769,
+									"top": 246,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykihDBBtY=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC3Sxo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 782,
+									"top": 243,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/bcykixDCfew=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC3Sxo="
+									},
+									"font": "Arial;13;0",
+									"left": 727,
+									"top": 256,
+									"width": 19.5126953125,
+									"height": 13,
+									"alpha": 0.8250248828030138,
+									"distance": 25.495097567963924,
+									"hostEdge": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"text": "1..*"
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF/bcykixDDW44=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC2QQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF/bcykixDE+5Y=",
+									"_parent": {
+										"$ref": "AAAAAAF/bcykihC5++E="
+									},
+									"model": {
+										"$ref": "AAAAAAF/bcykiRC3Sxo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/TpfWM6A+ItU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/bcAKaQuyy+k="
+							},
+							"lineStyle": 1,
+							"points": "752:208;756:279",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF/bcykihC6ZZk="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF/bcykihC7QgQ="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF/bcykihC8k9w="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAF/bcykihC9NHw="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAF/bcykihC++cc="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAF/bcykihC/Lb4="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAF/bcykihDAzKA="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAF/bcykihDBBtY="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAF/bcykixDCfew="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAF/bcykixDDW44="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAF/bcykixDE+5Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF/bcAKaAuwVDg=",
+					"_parent": {
+						"$ref": "AAAAAAF/TnN//ZMHlIk="
+					},
+					"name": "payform_list",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAF/bcykiRC182Q=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF/bcykiRC2QQk=",
+								"_parent": {
+									"$ref": "AAAAAAF/bcykiRC182Q="
+								},
+								"reference": {
+									"$ref": "AAAAAAF/bcAKaAuwVDg="
+								},
+								"navigable": false,
+								"multiplicity": "1"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF/bcykiRC3Sxo=",
+								"_parent": {
+									"$ref": "AAAAAAF/bcykiRC182Q="
+								},
+								"reference": {
+									"$ref": "AAAAAAF70/wLELgIUaA="
+								},
+								"multiplicity": "1..*"
+							}
+						}
+					],
+					"stereotype": "现金与电子券支付方式表",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcExpgvkEo0=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "payform_trade",
+							"stereotype": "",
+							"type": "decimal(10,2) 电子券金额 "
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcPtyQv0CbA=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "payform_trade_fee",
+							"type": "decimal(10,2) 手续费（即商户分摊额）"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcDdMAvdO0Q=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "mart_share_price",
+							"type": "decimal(10,2) 卖场分摊额"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcSQPQv9zeI=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "merchant_show",
+							"type": "varchar(50) 商户展位号"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bca5hwwFn/8=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "invoice_number",
+							"type": " varchar(100) 发票号"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcdJbQwTlNc=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "check_status",
+							"type": "tinyint(1) 审核状态  0:未审 1:已审 默认:0 "
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bchZ4gweSow=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "add_time",
+							"stereotype": "",
+							"type": "datetime 记录新增时间"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bckWmAwre4Y=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcAKaAuwVDg="
+							},
+							"name": "check_time",
+							"type": "datetime 记录审核时间"
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF/bcm5GQw7EUE=",
+					"_parent": {
+						"$ref": "AAAAAAF/TnN//ZMHlIk="
+					},
+					"name": "product_conume",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAF/bcvyag9pDNU=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF/bcvyag9q2lk=",
+								"_parent": {
+									"$ref": "AAAAAAF/bcvyag9pDNU="
+								},
+								"reference": {
+									"$ref": "AAAAAAF/bcm5GQw7EUE="
+								},
+								"navigable": false,
+								"multiplicity": "1"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF/bcvyag9ruRg=",
+								"_parent": {
+									"$ref": "AAAAAAF/bcvyag9pDNU="
+								},
+								"reference": {
+									"$ref": "AAAAAAF/bcAKaAuwVDg="
+								},
+								"multiplicity": "0..1"
+							}
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bcn3TQxnfgI=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"name": "consume_id",
+							"type": "int(11) 主键"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bddehxiuZ5M=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"name": "consume_pact_value 合同额"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bdeP3xlYwtI=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"name": "consume_fact_value 实付额"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF/bdh8VBm/Llw=",
+							"_parent": {
+								"$ref": "AAAAAAF/bcm5GQw7EUE="
+							},
+							"name": "consume_back 退款状态",
+							"type": "1 收银员退，2 财务退"
 						}
 					]
 				}
