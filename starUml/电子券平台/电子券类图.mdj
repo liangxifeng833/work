@@ -8590,7 +8590,7 @@
 									"left": 936,
 									"top": 422,
 									"width": 383.927734375,
-									"height": 263
+									"height": 233
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -8603,7 +8603,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 936,
-									"top": 685,
+									"top": 655,
 									"width": 383.927734375,
 									"height": 10
 								},
@@ -14713,7 +14713,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 285,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "«合同收券记录表»"
 										},
@@ -14726,7 +14726,7 @@
 											"font": "Arial;13;1",
 											"left": 589,
 											"top": 300,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "ticket_pay_record"
 										},
@@ -14761,7 +14761,7 @@
 									"font": "Arial;13;0",
 									"left": 584,
 									"top": 280,
-									"width": 362.87255859375,
+									"width": 373.3271484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF/TpfWM6BA6N0="
@@ -14798,7 +14798,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 323,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+id: 主键  int(11)",
 											"horizontalAlignment": 0
@@ -14815,7 +14815,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 338,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+pact_number:  合同号 varchar(50)",
 											"horizontalAlignment": 0
@@ -14832,7 +14832,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 353,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+ticket_usecode:  电子券使用码 varchar(100)",
 											"horizontalAlignment": 0
@@ -14849,7 +14849,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 368,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+status: 状态：0正常收款状态,1退款状态,2冲红状态 tinyint(2)",
 											"horizontalAlignment": 0
@@ -14866,7 +14866,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 383,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+pact_id: 合同表product_conume主键 int(11)",
 											"horizontalAlignment": 0
@@ -14883,7 +14883,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 398,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+ticket_batch_id: 关联电子券批次表主键 int(11)",
 											"horizontalAlignment": 0
@@ -14900,7 +14900,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 413,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+ticket_price: 券面额 decimal(10,2)",
 											"horizontalAlignment": 0
@@ -14917,7 +14917,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 428,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+merchant_share_price: 商户分摊金额 decimal(10,2)",
 											"horizontalAlignment": 0
@@ -14934,7 +14934,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 443,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+record_date: 记录新增时间 datetime",
 											"horizontalAlignment": 0
@@ -14951,7 +14951,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 458,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+is_new_share: tinyint(2) 是否使用新分摊0否,1是,默认:0",
 											"horizontalAlignment": 0
@@ -14968,7 +14968,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 473,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+cap_id: int(11) 关联封顶额活动表主键",
 											"horizontalAlignment": 0
@@ -14985,7 +14985,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 488,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+mart_share_ratio: decimal(10,2)卖场分摊比",
 											"horizontalAlignment": 0
@@ -15002,7 +15002,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 503,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+merchant_show: varchar(50) 商户展位号",
 											"horizontalAlignment": 0
@@ -15019,7 +15019,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 518,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+mart_share_price: decimal(10,2) 卖场分摊金额",
 											"horizontalAlignment": 0
@@ -15036,7 +15036,7 @@
 											"font": "Arial;13;0",
 											"left": 589,
 											"top": 533,
-											"width": 352.87255859375,
+											"width": 363.3271484375,
 											"height": 13,
 											"text": "+merchant_share_ratio: decimal(10,2) 商户分摊比",
 											"horizontalAlignment": 0
@@ -15045,7 +15045,7 @@
 									"font": "Arial;13;0",
 									"left": 584,
 									"top": 318,
-									"width": 362.87255859375,
+									"width": 373.3271484375,
 									"height": 233
 								},
 								{
@@ -15060,7 +15060,7 @@
 									"font": "Arial;13;0",
 									"left": 584,
 									"top": 551,
-									"width": 362.87255859375,
+									"width": 373.3271484375,
 									"height": 10
 								},
 								{
@@ -15100,7 +15100,7 @@
 							"containerChangeable": true,
 							"left": 584,
 							"top": 280,
-							"width": 362.87255859375,
+							"width": 373.3271484375,
 							"height": 281,
 							"nameCompartment": {
 								"$ref": "AAAAAAF/TpfWM6A/Dps="
@@ -15146,8 +15146,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 37,
-											"width": 349.30517578125,
+											"top": 29,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "«现金与电子券支付方式表»"
 										},
@@ -15159,8 +15159,8 @@
 											},
 											"font": "Arial;13;1",
 											"left": 573,
-											"top": 52,
-											"width": 349.30517578125,
+											"top": 44,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "payform_list"
 										},
@@ -15173,8 +15173,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -560,
-											"top": -112,
-											"width": 103.27001953125,
+											"top": -128,
+											"width": 107.44677734375,
 											"height": 13,
 											"text": "(from 电子券发票)"
 										},
@@ -15187,15 +15187,15 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -560,
-											"top": -112,
+											"top": -128,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 568,
-									"top": 32,
-									"width": 359.30517578125,
+									"top": 24,
+									"width": 372.52734375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF/bcAKaQu0HKk="
@@ -15231,8 +15231,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 75,
-											"width": 349.30517578125,
+											"top": 67,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+payform_trade: decimal(10,2) 电子券金额 ",
 											"horizontalAlignment": 0
@@ -15248,8 +15248,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 90,
-											"width": 349.30517578125,
+											"top": 82,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+payform_trade_fee: decimal(10,2) 手续费（即商户分摊额）",
 											"horizontalAlignment": 0
@@ -15265,8 +15265,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 105,
-											"width": 349.30517578125,
+											"top": 97,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+mart_share_price: decimal(10,2) 卖场分摊额",
 											"horizontalAlignment": 0
@@ -15282,8 +15282,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 120,
-											"width": 349.30517578125,
+											"top": 112,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+merchant_show: varchar(50) 商户展位号",
 											"horizontalAlignment": 0
@@ -15299,8 +15299,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 135,
-											"width": 349.30517578125,
+											"top": 127,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+invoice_number:  varchar(100) 发票号",
 											"horizontalAlignment": 0
@@ -15316,10 +15316,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 150,
-											"width": 349.30517578125,
+											"top": 142,
+											"width": 362.52734375,
 											"height": 13,
-											"text": "+check_status: tinyint(1) 审核状态  0:未审 1:已审 默认:0 ",
+											"text": "+check_status: tinyint(1) 审核状态  2:未审 1:已审 默认:0 ",
 											"horizontalAlignment": 0
 										},
 										{
@@ -15333,8 +15333,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 165,
-											"width": 349.30517578125,
+											"top": 157,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+add_time: datetime 记录新增时间",
 											"horizontalAlignment": 0
@@ -15350,8 +15350,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 573,
-											"top": 180,
-											"width": 349.30517578125,
+											"top": 172,
+											"width": 362.52734375,
 											"height": 13,
 											"text": "+check_time: datetime 记录审核时间",
 											"horizontalAlignment": 0
@@ -15359,8 +15359,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 568,
-									"top": 70,
-									"width": 359.30517578125,
+									"top": 62,
+									"width": 372.52734375,
 									"height": 128
 								},
 								{
@@ -15374,8 +15374,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 568,
-									"top": 198,
-									"width": 359.30517578125,
+									"top": 190,
+									"width": 372.52734375,
 									"height": 10
 								},
 								{
@@ -15390,7 +15390,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -280,
-									"top": -56,
+									"top": -64,
 									"width": 10,
 									"height": 10
 								},
@@ -15406,7 +15406,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -280,
-									"top": -56,
+									"top": -64,
 									"width": 10,
 									"height": 10
 								}
@@ -15414,8 +15414,8 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 568,
-							"top": 32,
-							"width": 359.30517578125,
+							"top": 24,
+							"width": 372.52734375,
 							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAF/bcAKaQuz64Q="
@@ -15474,7 +15474,7 @@
 											"font": "Arial;13;1",
 											"left": 189,
 											"top": 63,
-											"width": 287.16162109375,
+											"width": 290.697265625,
 											"height": 13,
 											"text": "product_conume"
 										},
@@ -15488,7 +15488,7 @@
 											"font": "Arial;13;0",
 											"left": -1200,
 											"top": -496,
-											"width": 103.27001953125,
+											"width": 107.44677734375,
 											"height": 13,
 											"text": "(from 电子券发票)"
 										},
@@ -15509,7 +15509,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 56,
-									"width": 297.16162109375,
+									"width": 300.697265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF/bcm5Ggw/K+0="
@@ -15546,7 +15546,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 86,
-											"width": 287.16162109375,
+											"width": 290.697265625,
 											"height": 13,
 											"text": "+consume_id: int(11) 主键",
 											"horizontalAlignment": 0
@@ -15563,7 +15563,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 101,
-											"width": 287.16162109375,
+											"width": 290.697265625,
 											"height": 13,
 											"text": "+consume_pact_value 合同额",
 											"horizontalAlignment": 0
@@ -15580,7 +15580,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 116,
-											"width": 287.16162109375,
+											"width": 290.697265625,
 											"height": 13,
 											"text": "+consume_fact_value 实付额",
 											"horizontalAlignment": 0
@@ -15597,7 +15597,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 131,
-											"width": 287.16162109375,
+											"width": 290.697265625,
 											"height": 13,
 											"text": "+consume_back 退款状态: 1 收银员退，2 财务退",
 											"horizontalAlignment": 0
@@ -15606,7 +15606,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 81,
-									"width": 297.16162109375,
+									"width": 300.697265625,
 									"height": 68
 								},
 								{
@@ -15621,7 +15621,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 149,
-									"width": 297.16162109375,
+									"width": 300.697265625,
 									"height": 10
 								},
 								{
@@ -15661,7 +15661,7 @@
 							"containerChangeable": true,
 							"left": 184,
 							"top": 56,
-							"width": 297.16162109375,
+							"width": 300.697265625,
 							"height": 103,
 							"nameCompartment": {
 								"$ref": "AAAAAAF/bcm5Ggw+BK8="
@@ -15700,8 +15700,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 524,
-									"top": 91,
+									"left": 526,
+									"top": 87,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -15721,8 +15721,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 525,
-									"top": 76,
+									"left": 526,
+									"top": 72,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -15742,8 +15742,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 523,
-									"top": 120,
+									"left": 525,
+									"top": 116,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -15763,8 +15763,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 507,
-									"top": 90,
+									"left": 511,
+									"top": 87,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -15784,8 +15784,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 510,
-									"top": 77,
+									"left": 513,
+									"top": 74,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -15804,9 +15804,9 @@
 										"$ref": "AAAAAAF/bcvyag9q2lk="
 									},
 									"font": "Arial;13;0",
-									"left": 499,
-									"top": 118,
-									"width": 7.22998046875,
+									"left": 503,
+									"top": 114,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -15828,7 +15828,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 541,
-									"top": 92,
+									"top": 87,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -15848,7 +15848,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 539,
-									"top": 78,
+									"top": 74,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -15866,8 +15866,8 @@
 										"$ref": "AAAAAAF/bcvyag9ruRg="
 									},
 									"font": "Arial;13;0",
-									"left": 534,
-									"top": 119,
+									"left": 535,
+									"top": 115,
 									"width": 21.68359375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -15914,7 +15914,7 @@
 								"$ref": "AAAAAAF/bcm5Ggw9DQk="
 							},
 							"lineStyle": 1,
-							"points": "481:111;567:114",
+							"points": "485:108;567:109",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF/bcvyaw9u5bM="
@@ -15971,8 +15971,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 768,
-									"top": 236,
+									"left": 774,
+									"top": 232,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -15992,8 +15992,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 783,
-									"top": 235,
+									"left": 789,
+									"top": 231,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -16013,8 +16013,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 739,
-									"top": 237,
+									"left": 745,
+									"top": 233,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -16034,8 +16034,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 768,
-									"top": 227,
+									"left": 774,
+									"top": 219,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -16055,8 +16055,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 781,
-									"top": 228,
+									"left": 787,
+									"top": 220,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -16075,9 +16075,9 @@
 										"$ref": "AAAAAAF/bcykiRC2QQk="
 									},
 									"font": "Arial;13;0",
-									"left": 736,
-									"top": 208,
-									"width": 7.22998046875,
+									"left": 742,
+									"top": 200,
+									"width": 7.62353515625,
 									"height": 13,
 									"alpha": -1.1510459369372972,
 									"distance": 14.317821063276353,
@@ -16098,7 +16098,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 769,
+									"left": 775,
 									"top": 246,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -16118,7 +16118,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 782,
+									"left": 788,
 									"top": 243,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -16137,9 +16137,9 @@
 										"$ref": "AAAAAAF/bcykiRC3Sxo="
 									},
 									"font": "Arial;13;0",
-									"left": 727,
+									"left": 733,
 									"top": 256,
-									"width": 19.5126953125,
+									"width": 19.79833984375,
 									"height": 13,
 									"alpha": 0.8250248828030138,
 									"distance": 25.495097567963924,
@@ -16185,7 +16185,7 @@
 								"$ref": "AAAAAAF/bcAKaQuyy+k="
 							},
 							"lineStyle": 1,
-							"points": "752:208;756:279",
+							"points": "758:200;762:279",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF/bcykihC6ZZk="
@@ -16317,7 +16317,7 @@
 								"$ref": "AAAAAAF/bcAKaAuwVDg="
 							},
 							"name": "check_status",
-							"type": "tinyint(1) 审核状态  0:未审 1:已审 默认:0 "
+							"type": "tinyint(1) 审核状态  2:未审 1:已审 默认:0 "
 						},
 						{
 							"_type": "UMLAttribute",
@@ -16395,7 +16395,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF/bcm5GQw7EUE="
 							},
-							"name": "consume_pact_value 合同额"
+							"name": "consume_pact_value 合同额",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -16403,7 +16404,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF/bcm5GQw7EUE="
 							},
-							"name": "consume_fact_value 实付额"
+							"name": "consume_fact_value 实付额",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
