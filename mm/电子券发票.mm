@@ -127,8 +127,9 @@
 <node CREATED="1648453655549" ID="ID_351364305" MODIFIED="1648453700956" TEXT="&#x666e;&#x901a;107,108,124"/>
 </node>
 </node>
-<node CREATED="1649835791641" FOLDED="true" ID="ID_453225873" MODIFIED="1649843296820" POSITION="right" TEXT="&#x6536;&#x6b3e;">
-<node CREATED="1649837444591" ID="ID_922608814" MODIFIED="1649837453323" TEXT="&#x5546;&#x6237;100%&#x5206;&#x644a;&#x4fee;&#x6539;">
+<node CREATED="1649903790231" ID="ID_676944719" MODIFIED="1649903792397" POSITION="right" TEXT="&#x4e8c;&#x671f;">
+<node CREATED="1649835791641" FOLDED="true" ID="ID_453225873" MODIFIED="1650271670956" TEXT="&#x6536;&#x6b3e;">
+<node CREATED="1649837444591" ID="ID_922608814" MODIFIED="1650266712910" TEXT="&#x5546;&#x6237;100%&#x5206;&#x644a;&#x4fee;&#x6539;">
 <node CREATED="1649837179390" ID="ID_634104844" MODIFIED="1649837904344" TEXT="bll ">
 <node CREATED="1649837205026" ID="ID_1215920585" MODIFIED="1649841432622" TEXT="application\libraries\action\casher\PaymentAbstract.addPayformList()">
 <node CREATED="1649837301543" ID="ID_1818247742" MODIFIED="1649837302739" TEXT="&#x65b9;&#x6cd5;&#x4fee;&#x6539;&#x5546;&#x6237;100%&#x5206;&#x644a;"/>
@@ -137,16 +138,16 @@
 </node>
 </node>
 <node CREATED="1649837541031" ID="ID_885454209" MODIFIED="1649838346268" TEXT="dal">
-<node CREATED="1649837573130" ID="ID_200803395" MODIFIED="1649841202556" TEXT="application\controllers\ticket\TctChangeTicketState._addRecord()">
+<node CREATED="1649837573130" ID="ID_200803395" MODIFIED="1650266775943" TEXT="application\controllers\ticket\TctChangeTicketState._addRecord()">
 <node CREATED="1649837730700" ID="ID_13516777" MODIFIED="1649837747968" TEXT="merchant_share_price=$ticketPrice"/>
 </node>
 </node>
 </node>
-<node CREATED="1649838227317" ID="ID_1912071564" MODIFIED="1649841485561" TEXT="&#x7528;&#x5238;&#x5408;&#x540c;&#x8865;&#x8d34;&#x5206;&#x644a;&#x8ba1;&#x7b97;">
+<node CREATED="1649838227317" ID="ID_1912071564" MODIFIED="1649926436674" TEXT="&#x7528;&#x5238;&#x5408;&#x540c;&#x8865;&#x8d34;&#x5206;&#x644a;&#x8ba1;&#x7b97;">
 <node CREATED="1649838262624" ID="ID_1641853533" MODIFIED="1649838265171" TEXT="bll">
 <node CREATED="1649838447719" ID="ID_1786844129" MODIFIED="1649842755339" TEXT="controller&#x4f4d;&#x7f6e;&#xff1a;application\controller\casher\addContractTicketShare.index_post()"/>
 <node CREATED="1649838355437" ID="ID_701185865" MODIFIED="1649842731010" TEXT="action&#x4f4d;&#x7f6e;&#xff1a;application\libraries\action\casher\AddContractTicketShareAction.doMain()"/>
-<node CREATED="1649838506118" ID="ID_823303568" MODIFIED="1649838512562" TEXT="&#x903b;&#x8f91;&#xff1a;">
+<node CREATED="1649838506118" FOLDED="true" ID="ID_823303568" MODIFIED="1650266708422" TEXT="&#x903b;&#x8f91;&#xff1a;">
 <node CREATED="1649838552469" ID="ID_577036355" MODIFIED="1649838563607" TEXT="&#x5165;&#x53c2;">
 <node CREATED="1649838564812" ID="ID_297177070" MODIFIED="1649838569276" TEXT="&#x5408;&#x540c;&#x53f7;"/>
 <node CREATED="1649838570145" ID="ID_1418063127" MODIFIED="1649838576178" TEXT="consumeId"/>
@@ -168,15 +169,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1649835808442" ID="ID_1937457610" MODIFIED="1649843852238" POSITION="right" TEXT="&#x9000;&#x6b3e;">
+<node CREATED="1649835808442" FOLDED="true" ID="ID_1937457610" MODIFIED="1650271673366" TEXT="&#x9000;&#x6b3e;">
 <node CREATED="1649837873789" ID="ID_934557082" MODIFIED="1649837874369" TEXT="&#x5546;&#x6237;100%&#x5206;&#x644a;&#x4fee;&#x6539;">
 <node CREATED="1649837898715" ID="ID_1634233431" MODIFIED="1649837900223" TEXT="bll">
-<node CREATED="1649837901654" FOLDED="true" ID="ID_1456487465" MODIFIED="1649838063936" TEXT="application\libraries\action\casher\PaymentAbstract.RefundAbstract.getRefundCash()">
+<node CREATED="1649837901654" ID="ID_1456487465" MODIFIED="1649902281212" TEXT="application\libraries\action\casher\PaymentAbstract.RefundAbstract.getRefundCash()">
 <node CREATED="1649837961104" ID="ID_1250322789" MODIFIED="1649837998641" TEXT="&#x53bb;&#x6389;&#x5b57;&#x6bb5;&#x8d4b;&#x503c;&#xff1a;check_status&#xff0c;mart_share_price"/>
 </node>
 </node>
 </node>
-<node CREATED="1649841362984" ID="ID_1500216447" MODIFIED="1649841408045" TEXT="&#x7528;&#x5238;&#x5408;&#x540c;&#x8865;&#x8d34;&#x9000;&#x8d27;">
+<node CREATED="1649841362984" FOLDED="true" ID="ID_1500216447" MODIFIED="1650271668309" TEXT="&#x7528;&#x5238;&#x5408;&#x540c;&#x8865;&#x8d34;&#x9000;&#x8d27;">
 <node CREATED="1649841424428" ID="ID_202686081" MODIFIED="1649841427516" TEXT="bll">
 <node CREATED="1649841441553" ID="ID_1079902732" MODIFIED="1649842765659" TEXT="application\controllers\casher\refundContractTicketShare.index_post()"/>
 <node CREATED="1649842767607" ID="ID_686248054" MODIFIED="1649842803973" TEXT="&#x5165;&#x53c2;&#xff1a;">
@@ -199,8 +200,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1649843301485" ID="ID_1806505995" MODIFIED="1649843304603" POSITION="right" TEXT="&#x811a;&#x672c;&#x903b;&#x8f91;">
-<node CREATED="1649843306683" ID="ID_1385834131" MODIFIED="1649843848905" TEXT="&#x67e5;&#x8be2;payform_list left join product_conume&#x8868;&#x6570;&#x636e;&#xff0c;Where">
+<node CREATED="1649843301485" FOLDED="true" ID="ID_1806505995" MODIFIED="1650276196897" TEXT="&#x811a;&#x672c;&#x903b;&#x8f91;">
+<node CREATED="1649843306683" ID="ID_1385834131" MODIFIED="1649903607280" TEXT="&#x67e5;&#x8be2;payform_list left join product_conume&#x8868;&#x6570;&#x636e;&#xff0c;Wherea">
 <node CREATED="1649843438661" ID="ID_1809396296" MODIFIED="1649843479628" TEXT="&#x9500;&#x552e;&#x65f6;&#x95f4; &gt; 2022-02-26 and &lt; &#x4e0a;&#x7ebf;&#x65f6;&#x95f4;"/>
 <node CREATED="1649843484144" ID="ID_896645734" MODIFIED="1649843610592" TEXT="&#x7ed3;&#x7b97;&#x72b6;&#x6001;=&#x672a;&#x7ed3;&#x7b97;&#xff08;consume_state &lt;&gt; 4 &#xff09;"/>
 </node>
@@ -212,6 +213,58 @@
 <node CREATED="1649843818688" ID="ID_122927433" MODIFIED="1649843832192" TEXT="&#x8ba1;&#x7b97;&#x5546;&#x6237;&#x548c;&#x5356;&#x573a;&#x5206;&#x644a;&#x603b;&#x989d;"/>
 </node>
 <node CREATED="1649843814048" ID="ID_822574252" MODIFIED="1649843843039" TEXT="&#x65b0;&#x589e;&#x5408;&#x540c;&#x7528;&#x5238;&#x8865;&#x8d34;&#x8868;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1649903816080" ID="ID_1699546051" MODIFIED="1649903848338" TEXT="&#x5f00;&#x53d1;&#x987a;&#x5e8f;&#x548c;&#x63a5;&#x53e3;">
+<node CREATED="1649903820584" ID="ID_1956928634" MODIFIED="1650266910425" TEXT="&#x65b0;&#x589e;&#x4e24;&#x5f20;&#x8868;&#x7684;DAL&#x57fa;&#x7840;&#x63a5;&#x53e3;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649903877337" ID="ID_1994684325" MODIFIED="1650266913052" TEXT="&#x65b0;&#x589e;DAL&#x6b63;&#x5411;&#x8865;&#x8d34;&#x4e8b;&#x52a1;&#x63a5;&#x53e3;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649903896376" ID="ID_367396628" MODIFIED="1650266917182" TEXT="&#x65b0;&#x589e;DAL&#x8d1f;&#x5411;&#x8865;&#x8d34;&#x51b2;&#x7ea2;&#x4e8b;&#x52a1;&#x63a5;&#x53e3;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649903915713" ID="ID_1980180453" MODIFIED="1649904688108" TEXT="&#x65b0;&#x589e;BLL&#x6b63;&#x5411;&#x8865;&#x8d34;&#x63a5;&#x53e3;">
+<icon BUILTIN="flag-green"/>
+</node>
+<node CREATED="1649903924865" ID="ID_511955227" MODIFIED="1650266919788" TEXT="&#x65b0;&#x589e;BLL&#x8d1f;&#x5411;&#x8865;&#x8d34;&#x63a5;&#x53e3;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649903943721" ID="ID_1743186355" MODIFIED="1649904616088" TEXT="&#x4fee;&#x6539;BLL&#x6536;&#x6b3e;&#x5927;&#x4fdd;&#x5b58;">
+<icon BUILTIN="flag-green"/>
+</node>
+<node CREATED="1649903963473" ID="ID_456993262" MODIFIED="1650266931756" TEXT="&#x4fee;&#x6539;BLL&#x9000;&#x6b3e;&#x5927;&#x4fdd;&#x5b58;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649903992012" ID="ID_1961904418" MODIFIED="1650266937044" TEXT="&#x4fee;&#x6539;DAL&#x6536;&#x6b3e;&#x540e;&#x7528;&#x5238;&#x4e8b;&#x52a1;&#x6539;&#x4e3a;&#x5546;&#x6237;100%&#x5206;&#x644a;">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1649904016651" ID="ID_1323322613" MODIFIED="1649904459661" TEXT="&#x5386;&#x53f2;&#x6570;&#x636e;&#x811a;&#x672c;">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node CREATED="1651045213549" ID="ID_1737682055" MODIFIED="1651045231249" TEXT="&#x4e00;&#x671f;&#x9875;&#x9762;&#x9700;&#x8981;&#x4fee;&#x6539;&#x7684;&#x5730;&#x65b9;">
+<node CREATED="1651046159837" ID="ID_1288846879" MODIFIED="1651047161233" TEXT="BLL">
+<node CREATED="1651046182932" ID="ID_1300660610" MODIFIED="1651047352707" TEXT="&#x5bf9;&#x8d26;&#x7cfb;&#x7edf;&#x5f55;&#x5165;&#x53d1;&#x7968;&#x5217;&#x8868;Action&#xff1a;seller/ContractTicketListAction">
+<node CREATED="1651047107497" ID="ID_339578160" MODIFIED="1651047147985" TEXT="&#x67e5;&#x8be2;payform_list&#x6539;&#x4e3a;&#x67e5;&#x8be2;coupons_subsidy"/>
+<node CREATED="1651047427816" ID="ID_1354062720" MODIFIED="1651047443375" TEXT="left join product_conume"/>
+<node CREATED="1651047521938" ID="ID_1310062184" MODIFIED="1651047539519" TEXT="&#x6761;&#x4ef6;&#xff1a;`consume_state` &gt;= &apos;3&apos;  1&#x5f53;&#x73ed;&#x672a;&#x63d0;&#x4ea4;&#xff0c;2&#x5f53;&#x73ed;&#x5df2;&#x63d0;&#x4ea4;&#xff0c;3&#x8d22;&#x52a1;&#x5df2;&#x5ba1;&#x6838;&#xff0c;4&#x5df2;&#x7ed3;&#x7b97;"/>
+</node>
+<node CREATED="1651047789060" ID="ID_1626896793" MODIFIED="1651047804822" TEXT="&#x53d1;&#x7968;&#x8be6;&#x60c5;Action: seller/InvoiceDetailAction">
+<node CREATED="1651047861289" ID="ID_162608992" MODIFIED="1651047893344" TEXT="&#x67e5;&#x8be2;PayTicketRecodeDao&#x6539;&#x4e3a;&#x67e5;&#x8be2;coupons_subsidy_detail"/>
+<node CREATED="1651048193611" ID="ID_1011529415" MODIFIED="1651048222533" TEXT="&#x53bb;&#x6389;&#x67e5;&#x8be2;ticket_batch&#x8868;&#x83b7;&#x53d6;&#x5206;&#x644a;&#x6570;&#x636e;&#xff0c;&#x56e0;&#x4e3a;coupons_subsidy_detail&#x8868;&#x4e2d;&#x5df2;&#x7ecf;&#x5b58;&#x5728;&#x8fd9;&#x90e8;&#x5206;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1651048365914" ID="ID_1106756662" MODIFIED="1651048376500" TEXT="&#x5f55;&#x5165;&#x53d1;&#x7968;&#x53f7;Action: seller/PutTicketInvoiceAction">
+<node CREATED="1651048394024" ID="ID_396661593" MODIFIED="1651048431236" TEXT="&#x5c06;&#x8c03;&#x7528;payform_list dal&#x64cd;&#x4f5c;&#x6539;&#x4e3a;&#x8c03;&#x7528; coupons_subsidy&#x64cd;&#x4f5c;"/>
+<node CREATED="1651048444628" ID="ID_402877659" MODIFIED="1651048453420" TEXT="&#x5f55;&#x5165;&#x53d1;&#x7968;&#x53f7;&#x5e94;&#x8be5;&#x8fd8;&#x4f1a;&#x6709;&#x65b0;&#x89c4;&#x5219;"/>
+<node CREATED="1651048461940" ID="ID_88911182" MODIFIED="1651048468533" TEXT="&#x76ee;&#x524d;&#x5df2;&#x5ba1;&#x6838;&#x4e0d;&#x53ef;&#x5f55;&#x5165;"/>
+</node>
+<node CREATED="1651048922821" ID="ID_369310330" MODIFIED="1651048963859" TEXT="&#x5ba1;&#x6838;&#x548c;&#x6279;&#x91cf;&#x5ba1;&#x6838;&#x5c5e;&#x4e8e;&#x672c;&#x6b21;&#x521d;&#x5ba1;&#x903b;&#x8f91;&#xff1a;&#x4fee;&#x6539;controller: seller/checkInvoice"/>
+</node>
+<node CREATED="1651047154197" ID="ID_422652308" MODIFIED="1651047157457" TEXT="DAL&#x4fee;&#x6539;">
+<node CREATED="1651047222236" ID="ID_695180582" MODIFIED="1651047314427" TEXT="&#x5408;&#x540c;&#x8865;&#x8d34;&#x8868;controller: ljmis/coupons_subsidy&#x6dfb;&#x52a0;select_post()&#x505a;left join&#x67e5;&#x8be2;"/>
+</node>
+</node>
 </node>
 </node>
 </map>
