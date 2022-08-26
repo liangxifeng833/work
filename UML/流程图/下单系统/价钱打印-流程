@@ -1,0 +1,22 @@
+@startuml
+title 价签打印-流程
+
+|下单系统|
+:价钱列表;
+:标准商品查询 C_price_offer_standard_model.php;
+note right:修改 rec_total 方法 去掉offer，直接读取product\n 修改rec_All_Flex 方法，去掉offer查询
+
+:C_price_tag_set.php;
+note right: func_pro_arr()方法去掉 offer_id 参数接收\n $data[$offer_id]修改为[product_id],同时去掉offer_id数组下标
+
+:选择商品;
+
+:提交价签 price_tag_choose.php?action;
+:新增价签批次;
+:从容器中查询商品;
+:新增价签商品表数据 去掉关联offer_id $data_pro['offer_id']=0;
+:提交给对账系统webservice ljlj_pricetag_server.php.pricetag_submit();
+:webservice新增pricetag_product_2022;
+
+end
+@enduml
