@@ -1,0 +1,56 @@
+@startuml
+title 电子券-封顶额-分摊-时序图
+
+actor api #red
+/'-------------定义参与者别名 -------------------'/
+participant "TicketSettlementAppService \n db_ljlj中电子券结算appService" as appS #00FF00
+participant "CouponsSettlementAppService \n db_ticket中电子券结算appService" as  appST #FFFFFF
+participant "ticketPayRecord合同收券表" as record #FFFFFF
+participant "ticketBatch券批次表" as batch #FFFFFF
+participant "capBatch封顶额活动批次表" as capBatch #FFFFFF
+participant "martCap封顶额活动表" as cap #FFFFFF
+participant "capMerchant封顶额活动商户表" as capMerchant #FFFFFF
+
+api->appS: doMain(consumeId,展位号)
+    group 通过主键查询合同收款表主键，目的获取展位号
+        appS->productConume: getById(consumeId)
+        productConume-->appS: 合同收款表数据
+    end
+    group 通过consumeId去db_ticket库查询电子券已收款的所有信息（包括封顶额）
+        appS->appST: getData(consumeId，展位号)
+        activate appST
+            group 通过合同主键查询该合同下收过的券
+                appST->record: getList(consumeId)
+                record-->appST: 已收电子券list
+                loop 已收电子券list
+                    /'通过主键查询电子券批次数据'/
+                    appST->batch: getById(batchId)\n通过主键查询电子券批次数据
+                    batch-->appST: 券批次数据
+
+                    /'通过券批次主键查询封顶额与券关系表'/
+                    appST->capBatch: getList(batchId) \n 通过批次主键查询封顶额活动批次list
+                        note right appST: 查询排序条件 order by 开始时间，主键 asc
+                    capBatch-->appST: 封顶额活动主键list
+
+                    /'通过封顶额活动主键list 查询活动期内的活动'/
+                    appST->cap: getListByIds()\n通过封顶额活动主键list 查询活动期内的活动
+                        note right appST: 注意这里通过主键查询活动期内的活动
+                    cap-->appST: 活动期内的封顶额活动list
+
+                    /'通过活动期内的封顶额活动主键和展位号查询商户封顶额'/
+                    appST->capMerchant: getListByCapIdAndShow() \n通过活动期内的封顶额活动主键和展位号查询商户封顶额
+                    capMerchant-->appST: 同一商户不同活动的封顶额数据list
+                end /'loop 已收电子券list'/
+            end  /'通过合同主键查询该合同下收过的券'/
+             note right appS
+                 组装数据：
+                   data[券批次主键1][活动1][批次原始分摊数据集,新分摊数据集,封顶额]
+                   data[券批次主键1][活动2][批次原始分摊数据集,新分摊数据集,封顶额]
+             end note
+        appST-->appS: 电子券list
+        deactivate appST
+    end /'通过consumeId去db_ticket库查询电子券已收款的所有信息'/
+
+appS-->api:
+
+@enduml
