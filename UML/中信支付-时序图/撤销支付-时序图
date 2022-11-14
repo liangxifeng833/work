@@ -32,8 +32,8 @@ activate C
 	C->A:reverseRequest(request,response)
 	activate A
 	
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertDB( )
 			end
 			
 			group 去中信请求
@@ -43,8 +43,8 @@ activate C
 				deactivate http
 			end
 			
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertDB( )
 			end
 			
 			group 判断请求后的返回值

@@ -43,13 +43,28 @@ api->appS: doMain(consumeId,展位号)
                 end /'loop 已收电子券list'/
             end  /'通过合同主键查询该合同下收过的券'/
              note right appS
-                 组装数据：
-                   data[券批次主键1][活动1][批次原始分摊数据集,新分摊数据集,封顶额]
-                   data[券批次主键1][活动2][批次原始分摊数据集,新分摊数据集,封顶额]
+                 组装券批次数据：
+                   batchData[券批次主键1][券原始分摊]
+                   batchData[券批次主键1][活动1][新分摊数据集,封顶额]
+                 组装该合同已收款数据ticketPayRecord数据list
              end note
-        appST-->appS: 电子券list
+        appST-->appS: data
         deactivate appST
     end /'通过consumeId去db_ticket库查询电子券已收款的所有信息'/
+
+    group 计算商户最终分摊
+        appS->appS:
+            loop 该合同已收款数据ticketPayRecord数据list
+                note right appS
+                    循环计算真实分摊
+                    最终修改：
+                        payformList表卖场分摊总额
+                        电子券分摊表最终分摊
+                        电子券分摊明细表最终分摊
+                end note
+            end
+        appS-->appS:
+    end
 
 appS-->api:
 

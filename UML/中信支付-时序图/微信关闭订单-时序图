@@ -7,7 +7,6 @@ participant "CloseServlet" as C  #00FF00
 participant "PayAction\n支付A" as pA  #FFFFFF
 participant "CloseAction\n关闭订单action" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
 participant "CorefireHttpPost\n支付http请求类" as http  #FFFFFF
 participant "中信服务器" as citic  
 view->C:doPost()
@@ -29,8 +28,8 @@ activate C
 		/'===========处理逻辑=============='/
 		C->A:closeRequest(map)	
 		activate A				
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertDB( )
 			end
 		
 				group 去中信请求
@@ -42,8 +41,8 @@ activate C
 					deactivate http
 				end
 				
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertDB( )
 			end
 				
 			A-->C:res

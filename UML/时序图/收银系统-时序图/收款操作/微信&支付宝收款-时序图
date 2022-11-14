@@ -9,7 +9,8 @@ participant "CreatePayNumber\n生成商户订单号" as create  #FFFFFF
 participant "CreateHandleFee\n生成手续费类" as fee  #FFFFFF
 participant "PayTypeDao\n支付方式表" as pDao  #FFFFFF
 participant "RemoteRequestPay\n远程请求线下支付类" as remote  #FFFFFF
-participant "PayServlet\n微信或支付宝线下支付接口" as pay  #00FF00
+participant "RemoteRequestPayNew\n远程请求线下支付类(新)" as remoteNew  #FFFFFF
+participant "新java接口\n微信或支付宝线下支付接口" as payNew  #00FF00
 
 participant "WechatAnnalDao\n微信收款表" as cDao  #FFFFFF
 participant "AlipayAnnalDao\n支付宝收款表" as aDao  #FFFFFF
@@ -52,25 +53,52 @@ activate C
 					fee->pDao:select pay_value \n where s_name = wechat/alipay
 					pDao-->fee:pay_value
 					note over fee
-						手续费计算规则请查看开发指导文档
+					手续费计算规则:
+                    1.手续费不使用四舍五入规则
+                    2.手续费<0.5分，算0分
+                    3.手续费>=0.5分，只要厘位大于0，进位1分，例如1.1、1.6分算2分，1.02分算1分
 					end note
 			fee-->A:计算后的手续费
 			deactivate fee
 		end
 		/'-------------------计算手续费-------------------------'/
 	
-		/'-------------------去远程请求支付-------------------'/
-		group 去远程请求支付
-			A->A:remoteRequestPay()
-			activate A
-				A->remote:根据this.type区分wechatPay()或aliPay()
-				activate remote
-					remote->pay:doPost()
-					pay-->remote:json
-				remote-->A:json
-				deactivate remote
-			A-->A:
-			deactivate A
+		/'-------------------去远程请求java支付api-------------------'/
+		group <font color=red>去远程请求java支付api
+            note over A
+                这里需要在constant常量配置文件中添加一个配置
+                移动支付类型,说明：
+                key=MOBILE_PAY_TYPE，
+                value=old请求老api接口（区分微信支付宝）
+                value=new 请求新api接口 (不区分微信支付宝)
+            end note
+
+            alt 如果远程移动支付请求类型=old (请求老api,现有程序不变)
+                    A->A:remoteRequestPay()
+                    activate A
+                        A->remote:根据this.type区分wechatPay()或aliPay()
+                          activate remote
+                            note right A: 注意：这里的接口请求需要双向https证书
+                            remote->pay:doPost()
+                            pay-->remote:json
+                            remote-->A:json
+                          deactivate remote
+                        A-->A:
+                    deactivate A
+            else <font color=red>如果远程移动支付请求类型=new (请求新api,需新写程序)
+                    A->A:remoteRequestNewPay()
+                    activate A
+                        A->remoteNew:mobilePay()
+                           activate remoteNew
+                               note right A: 注意：这里的接口请求不需要https证书
+                               remoteNew->payNew:doPost()
+                               payNew-->remoteNew:json
+                               remoteNew-->A:json
+                           deactivate remoteNew
+                    A-->A:
+                    deactivate A
+            end
+
 			
 			alt 支付失败
 				A->C:支付失败
