@@ -6,7 +6,7 @@ actor 中信服务器 #red
 participant "ResultServlet\n通知接口" as C  #00FF00
 participant "ResultAction\n通知action" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
+participant "MysqlDB\nMysqlDB工具类" as couch  #FFFFFF
 中信服务器->C:doPost()
 activate C
 	/'===========验证参数=============='/
@@ -19,8 +19,8 @@ activate C
 	/'===========处理逻辑=============='/
 	C->A:doResult(map)
 	activate A				
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end
 	
 		note over A: 处理自己的业务罗辑，注意：先根据自己的业务需求排重

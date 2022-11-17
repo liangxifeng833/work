@@ -8,7 +8,7 @@ participant "MD5\nMD5签名类" as md5  #00FF00
 participant "PayAction\n中信支付A" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
 participant "CreateTradeNo\n生成支付号类" as createNo  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
+participant "MysqlDB\nMysqlDB工具类" as couch  #FFFFFF
 participant "CorefireHttpPost\n中信支付http请求类" as http  #FFFFFF
 
 view->C:doPost()
@@ -54,8 +54,8 @@ activate C
 					A->A:调用父类setCommonRequestMap( 客户端平台标识 )
 			end
 			
-			group  将请求参数写入couchDB，注意写明请求说明
-				A->common:调用父类insertCouchDB( )
+			group  将请求参数写入MysqlDB，注意写明请求说明
+				A->common:调用父类insertMysqlDB( )
 			end
 			
 			group 去中信请求
@@ -65,8 +65,8 @@ activate C
 				deactivate http
 			end
 			
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end
 			
 			group 判断请求后的返回值

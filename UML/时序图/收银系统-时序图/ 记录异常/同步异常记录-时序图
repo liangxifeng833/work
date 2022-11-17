@@ -8,8 +8,9 @@ participant "ExecptionSyncAction\n异常同步Action" as A  #FFFFFF
 participant "WechatAnnalDao\n微信收款表" as wDao  #FFFFFF
 participant "AlipayAnnalDao\n支付宝收款表" as aDao  #FFFFFF
 
-
+participant "RequestHttps\n发起请求https类" as https  #FFFFFF
 participant "PayQueryServlet\n微信或支付宝查询接口java" as query  #FFFFFF
+participant "新Java接口\n微信或支付宝查询接口java" as queryNew  #FFFFFF
 participant "CreateHandleFee\n生成手续费类" as fee  #FFFFFF
 participant "PayTypeDao\n支付方式表" as pDao  #FFFFFF
 participant "tctSyncException\n同步收款异常事务" as tct  #FFFFFF
@@ -26,12 +27,13 @@ activate C
 			note over A
 				验证必要参数
 					params['支付类型'] = 1微信, 2支付宝
-					params['通道号'] = 通道号
+					<font color=red><b>params['商户订单号'] = 我们生成的商户订单号
+					<font color=red><b>(注意：本接口中所有用到通道号作为参数的地方，全部改为商户单号)
 			end note
 			
 			/'-------------查询本地数据库------------------------------'/
-			group 根据通道号和支付类型从本地数据库查询微信或支付宝数据
-				A->A:getPayFromDB(支付类型, 通道号)
+			group 根据商户订单号和支付类型从本地数据库查询微信或支付宝数据
+				A->A:getPayFromDB(支付类型, 商户单号)
 				activate A
 					alt params['支付类型'] = 1 微信
 						A->wDao: get()
@@ -50,13 +52,33 @@ activate C
 			
 			/'-------------查询远程中信数据库------------------------------'/
 			group 查询远程中信数据库
-				A->A:getPayFromCitic(支付类型, 通道号)
-				activate A
-					note over A:  需根据支付类型调用微信或支付宝
-					A->query: doPost() <b> <font color="red">注意: 从bll php 访问 bll java
-					query-->A:				
-				A-->A:远程支付数据
-				deactivate A
+			    note over A
+                  这里需要在constant常量配置文件中添加一个配置
+                  移动支付类型,说明：
+                    key=MOBILE_PAY_TYPE，
+                    value=old请求老api接口（区分微信支付宝）
+                    value=new 请求新api接口 (不区分微信支付宝)
+                end note
+                alt 如果远程移动支付请求类型=old (请求老api,现有程序不变)
+                    A->A:getPayFromCitic(支付类型, 商户单号)
+                    activate A
+                        note over A:  需根据支付类型调用微信或支付宝
+                        A->https: doPost()
+                            https->query: doPost()
+                            query-->https:
+                        https-->A:
+                    A-->A:远程支付数据
+                    deactivate A
+				else <font color=red>如果远程移动支付请求类型=new (请求新api,需新写程序)
+                    A->A:getPayFromCiticNew()
+                      activate A
+                         A->https: doPostNew()
+                            https->queryNew:
+                            queryNew-->https:
+                         https-->A:
+                      A-->A:远程支付数据
+                      deactivate A
+				end
 			end
 			/'-------------查询远程中信数据库------------------------------'/
 			

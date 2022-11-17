@@ -6,7 +6,7 @@ actor view #red
 participant "NativePayServlet\n扫码支付接口" as C  #00FF00
 participant "NativePayAction\n扫码支付action" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
+participant "MysqlDB\nMysqlDB工具类" as couch  #FFFFFF
 participant "CorefireHttpPost\n支付http请求类" as http  #FFFFFF
 participant "中信服务器" as citic  
 view->C:doPost()
@@ -21,13 +21,13 @@ activate C
 	/'===========处理逻辑=============='/
 	C->A:nativeRequest(map)	
 	activate A				
-			group  将请求参数写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求参数写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end
 		
 		note over A
 			注意：在请求参数notify_url回调url中需要加订单编号参数
-             该参数作为入couchDB的doucmentId
+             该参数作为入MysqlDB的doucmentId
 		end note
 	
 			group 去中信请求
@@ -39,8 +39,8 @@ activate C
 				deactivate http
 			end
 			
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end
 		note over A
 			注意：在返回值的时候多加一个：

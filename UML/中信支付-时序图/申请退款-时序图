@@ -6,7 +6,7 @@ actor view #red
 participant "RefundServlet\n申请退款S" as C  #00FF00
 participant "RefundAction\n申请退款A" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
+participant "MysqlDB\nMysqlDB工具类" as couch  #FFFFFF
 participant "CorefireHttpPost\n中信支付http请求类" as http  #FFFFFF
 participant "WechatAnnalDao\n微信收款表" as cDao  #FFFFFF
 
@@ -45,8 +45,8 @@ activate C
 			end
 			
 			
-			group  将请求参数写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求参数写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end
 			group 去中信请求	
 				A->http:connect()
@@ -56,8 +56,8 @@ activate C
 			end
 			
 
-			group  将请求返回值写入couchDB，注意写明返回说明
-				A->A:调用父类insertCouchDB( )
+			group  将请求返回值写入MysqlDB，注意写明返回说明
+				A->A:调用父类insertMysqlDB( )
 			end				
 			
 			group 判断请求后的返回值

@@ -6,7 +6,7 @@ actor view #red
 participant "PayReverseServlet\n撤销支付S" as C  #00FF00
 participant "PayAction\n支付A" as A  #FFFFFF
 participant "CommonUtils\n公共工具类" as common  #FFFFFF
-participant "CouchDB\nCouchDB工具类" as couch  #FFFFFF
+participant "MysqlDB\nMysqlDB工具类" as couch  #FFFFFF
 participant "CorefireHttpPost\n中信支付http请求类" as http  #FFFFFF
 
 view->C:doPost()
