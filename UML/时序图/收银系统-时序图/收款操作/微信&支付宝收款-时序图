@@ -40,29 +40,15 @@ activate C
 		group 生成商户订单号
 			A->create:cashierPayNum()
 			activate create
-				note over A: 规则: 合同号-W/A-支付次数-5位随机数  ( W=微信, A=支付宝)
+				note over A
+                     规则: 合同号-W/A-支付次数-5位随机数  ( W=微信, A=支付宝)
+              <font color=red>新接口不区分微信支付宝，所以这里如果是调用新java支付接口,W/A用D代替
+				end note
 			create-->A:	
 			deactivate create
 		end
 		/'-------------------生成商户订单号-------------------------'/
-		
-		/'-------------------计算手续费-------------------------'/
-		group 计算手续费
-			A->fee:mainGet(wechat/alipay, curPrice)
-			activate fee
-					fee->pDao:select pay_value \n where s_name = wechat/alipay
-					pDao-->fee:pay_value
-					note over fee
-					手续费计算规则:
-                    1.手续费不使用四舍五入规则
-                    2.手续费<0.5分，算0分
-                    3.手续费>=0.5分，只要厘位大于0，进位1分，例如1.1、1.6分算2分，1.02分算1分
-					end note
-			fee-->A:计算后的手续费
-			deactivate fee
-		end
-		/'-------------------计算手续费-------------------------'/
-	
+
 		/'-------------------去远程请求java支付api-------------------'/
 		group <font color=red>去远程请求java支付api
             note over A
@@ -105,6 +91,23 @@ activate C
 			end
 		end
 		/'-------------------去远程请求支付-------------------'/
+
+		/'-------------------计算手续费-------------------------'/
+		group 计算手续费
+			A->fee:mainGet(wechat/alipay, curPrice)
+			activate fee
+					fee->pDao:select pay_value \n where s_name = wechat/alipay
+					pDao-->fee:pay_value
+					note over fee
+					手续费计算规则:
+                    1.手续费不使用四舍五入规则
+                    2.手续费<0.5分，算0分
+                    3.手续费>=0.5分，只要厘位大于0，进位1分，例如1.1、1.6分算2分，1.02分算1分
+					end note
+			fee-->A:计算后的手续费
+			deactivate fee
+		end
+		/'-------------------计算手续费-------------------------'/
 
 		alt this.type == 1 微信
 			A->A:addWechat(data)
