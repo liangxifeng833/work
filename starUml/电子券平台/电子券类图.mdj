@@ -16279,9 +16279,9 @@
 												"$ref": "AAAAAAGIHiXqFOsa0rk="
 											},
 											"font": "Arial;13;0",
-											"left": 709,
-											"top": 157,
-											"width": 170.28857421875,
+											"left": 589,
+											"top": 293,
+											"width": 298.2509765625,
 											"height": 13,
 											"text": "«用券规则领域service接口»"
 										},
@@ -16292,11 +16292,11 @@
 												"$ref": "AAAAAAGIHiXqFOsa0rk="
 											},
 											"font": "Arial;13;1",
-											"left": 709,
-											"top": 172,
-											"width": 170.28857421875,
+											"left": 589,
+											"top": 308,
+											"width": 298.2509765625,
 											"height": 13,
-											"text": "IUseTicketDomainService"
+											"text": "AbstractUseTicketRule"
 										},
 										{
 											"_type": "LabelView",
@@ -16306,9 +16306,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 464,
-											"top": -48,
-											"width": 64.27001953125,
+											"left": 224,
+											"top": 224,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -16320,16 +16320,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 464,
-											"top": -48,
+											"left": 224,
+											"top": 224,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 704,
-									"top": 152,
-									"width": 180.28857421875,
+									"left": 584,
+									"top": 288,
+									"width": 308.2509765625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIHiXqFOsbu3w="
@@ -16353,11 +16353,30 @@
 									"model": {
 										"$ref": "AAAAAAGIHiXqE+sXonU="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIPUBJHEmuRvk=",
+											"_parent": {
+												"$ref": "AAAAAAGIHiXqFOsf3e0="
+											},
+											"model": {
+												"$ref": "AAAAAAGIPUBJGEmr8yQ="
+											},
+											"font": "Arial;13;0",
+											"left": 589,
+											"top": 331,
+											"width": 298.2509765625,
+											"height": 13,
+											"text": "+nextUseTicketRule: AbstractUseTicketRule",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
-									"left": 704,
-									"top": 190,
-									"width": 180.28857421875,
-									"height": 10
+									"left": 584,
+									"top": 326,
+									"width": 308.2509765625,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -16379,19 +16398,36 @@
 												"$ref": "AAAAAAGIHjBXMex0ir0="
 											},
 											"font": "Arial;13;0",
-											"left": 709,
-											"top": 205,
-											"width": 170.28857421875,
+											"left": 589,
+											"top": 354,
+											"width": 298.2509765625,
 											"height": 13,
-											"text": "«验证券规则»+checkRule()",
+											"text": "«验证券规则»+checkRule(TicketBatchDO batchDO)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGIPT5KYEk5HZE=",
+											"_parent": {
+												"$ref": "AAAAAAGIHiXqFOsgHCE="
+											},
+											"model": {
+												"$ref": "AAAAAAGIPT5KWUk2H+w="
+											},
+											"font": "Arial;13;0",
+											"left": 589,
+											"top": 369,
+											"width": 298.2509765625,
+											"height": 13,
+											"text": "+setNextRule(AbstractUseTicketRule rule)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 704,
-									"top": 200,
-									"width": 180.28857421875,
-									"height": 23
+									"left": 584,
+									"top": 349,
+									"width": 308.2509765625,
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -16404,8 +16440,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 16,
-									"top": 16,
+									"left": -104,
+									"top": 152,
 									"width": 10,
 									"height": 10
 								},
@@ -16420,18 +16456,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 16,
-									"top": 16,
+									"left": -104,
+									"top": 152,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 704,
-							"top": 152,
-							"width": 180.28857421875,
-							"height": 71,
+							"left": 584,
+							"top": 288,
+							"width": 308.2509765625,
+							"height": 99,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIHiXqFOsa0rk="
 							},
@@ -16475,11 +16511,11 @@
 												"$ref": "AAAAAAGIHimpVOtJlDA="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 165,
+											"left": 1085,
+											"top": 293,
 											"width": 143,
 											"height": 13,
-											"text": "«用券有效期实现»"
+											"text": "«用券有效期规则»"
 										},
 										{
 											"_type": "LabelView",
@@ -16488,8 +16524,8 @@
 												"$ref": "AAAAAAGIHimpVOtJlDA="
 											},
 											"font": "Arial;13;1",
-											"left": 1077,
-											"top": 180,
+											"left": 1085,
+											"top": 308,
 											"width": 143,
 											"height": 13,
 											"text": "TicketDateRule"
@@ -16502,9 +16538,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 688,
-											"top": -192,
-											"width": 64.27001953125,
+											"left": 704,
+											"top": 64,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -16516,15 +16552,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 688,
-											"top": -192,
+											"left": 704,
+											"top": 64,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 160,
+									"left": 1080,
+									"top": 288,
 									"width": 153,
 									"height": 38,
 									"stereotypeLabel": {
@@ -16550,8 +16586,8 @@
 										"$ref": "AAAAAAGIHimpVOtGpQ0="
 									},
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 198,
+									"left": 1080,
+									"top": 326,
 									"width": 153,
 									"height": 10
 								},
@@ -16575,8 +16611,8 @@
 												"$ref": "AAAAAAGIHjCTaOx7Dd4="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 213,
+											"left": 1085,
+											"top": 341,
 											"width": 143,
 											"height": 13,
 											"text": "+checkRule()",
@@ -16593,8 +16629,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1517,
-											"top": 172,
+											"left": 1533,
+											"top": 428,
 											"width": 210.01220703125,
 											"height": 13,
 											"text": "+Operation1()",
@@ -16611,8 +16647,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1517,
-											"top": 172,
+											"left": 1533,
+											"top": 428,
 											"width": 210.01220703125,
 											"height": 13,
 											"text": "+Operation2()",
@@ -16620,8 +16656,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 208,
+									"left": 1080,
+									"top": 336,
 									"width": 153,
 									"height": 23
 								},
@@ -16636,8 +16672,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 344,
-									"top": -144,
+									"left": 352,
+									"top": -16,
 									"width": 10,
 									"height": 10
 								},
@@ -16652,16 +16688,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 344,
-									"top": -144,
+									"left": 352,
+									"top": -16,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1072,
-							"top": 160,
+							"left": 1080,
+							"top": 288,
 							"width": 153,
 							"height": 81,
 							"nameCompartment": {
@@ -16701,8 +16737,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 976,
-									"top": 201,
+									"left": 985,
+									"top": 340,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -16722,8 +16758,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 976,
-									"top": 216,
+									"left": 985,
+									"top": 355,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -16743,8 +16779,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 977,
-									"top": 172,
+									"left": 984,
+									"top": 311,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -16762,7 +16798,7 @@
 								"$ref": "AAAAAAGIHimpVOtI1MM="
 							},
 							"lineStyle": 1,
-							"points": "1071:197;884:190",
+							"points": "1079:330;892:334",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHi+l1uxiwKw="
@@ -16782,8 +16818,8 @@
 							},
 							"fontColor": "#007c3e",
 							"font": "Arial;13;0",
-							"left": 400,
-							"top": 8,
+							"left": 272,
+							"top": 128,
 							"width": 337,
 							"height": 121,
 							"text": "redis中存储电子券hash结构：（有效期均为1小时）\n\n-------------------------------------------------------------\nkey1 = use_ticket_合同号_UUID\nvalue1 = 券使用码 ：券批次主键, \n--------------------------------------------------------------\nkey2 = use_batch_合同号_UUID\nvalue2 = 券批次主键 : 使用张数"
@@ -16815,8 +16851,8 @@
 												"$ref": "AAAAAAGIHn4bIeznxHo="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 453,
+											"left": 885,
+											"top": 557,
 											"width": 129.0859375,
 											"height": 13,
 											"text": "«用券状态规则»"
@@ -16828,8 +16864,8 @@
 												"$ref": "AAAAAAGIHn4bIeznxHo="
 											},
 											"font": "Arial;13;1",
-											"left": 1077,
-											"top": 468,
+											"left": 885,
+											"top": 572,
 											"width": 129.0859375,
 											"height": 13,
 											"text": "TicketStatusRule"
@@ -16842,9 +16878,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 640,
-											"top": 240,
-											"width": 64.27001953125,
+											"left": 256,
+											"top": 448,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -16856,15 +16892,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 640,
-											"top": 240,
+											"left": 256,
+											"top": 448,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 448,
+									"left": 880,
+									"top": 552,
 									"width": 139.0859375,
 									"height": 38,
 									"stereotypeLabel": {
@@ -16890,8 +16926,8 @@
 										"$ref": "AAAAAAGIHn4bIOzkdWI="
 									},
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 486,
+									"left": 880,
+									"top": 590,
 									"width": 139.0859375,
 									"height": 10
 								},
@@ -16915,8 +16951,8 @@
 												"$ref": "AAAAAAGIHn6VLu0P91w="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 501,
+											"left": 885,
+											"top": 605,
 											"width": 129.0859375,
 											"height": 13,
 											"text": "+checkRule()",
@@ -16924,8 +16960,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 496,
+									"left": 880,
+									"top": 600,
 									"width": 139.0859375,
 									"height": 23
 								},
@@ -16940,8 +16976,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 120,
+									"left": 128,
+									"top": 224,
 									"width": 10,
 									"height": 10
 								},
@@ -16956,16 +16992,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 120,
+									"left": 128,
+									"top": 224,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1072,
-							"top": 448,
+							"left": 880,
+							"top": 552,
 							"width": 139.0859375,
 							"height": 71,
 							"nameCompartment": {
@@ -17005,8 +17041,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 957,
-									"top": 340,
+									"left": 836,
+									"top": 472,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -17026,8 +17062,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 947,
-									"top": 351,
+									"left": 825,
+									"top": 482,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -17047,8 +17083,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 976,
-									"top": 317,
+									"left": 859,
+									"top": 453,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -17066,7 +17102,7 @@
 								"$ref": "AAAAAAGIHn4bIezmomk="
 							},
 							"lineStyle": 1,
-							"points": "1099:447;835:223",
+							"points": "918:551;779:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHn7+Yu0dQiw="
@@ -17105,8 +17141,8 @@
 												"$ref": "AAAAAAGIHn95Ye2FZ68="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 349,
+											"left": 1085,
+											"top": 477,
 											"width": 159.427734375,
 											"height": 13,
 											"text": "«用券黑白名单规则»"
@@ -17118,8 +17154,8 @@
 												"$ref": "AAAAAAGIHn95Ye2FZ68="
 											},
 											"font": "Arial;13;1",
-											"left": 1077,
-											"top": 364,
+											"left": 1085,
+											"top": 492,
 											"width": 159.427734375,
 											"height": 13,
 											"text": "TicketBlackWhiteRule"
@@ -17132,9 +17168,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": -128,
-											"width": 64.27001953125,
+											"left": 432,
+											"top": 128,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -17146,15 +17182,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 416,
-											"top": -128,
+											"left": 432,
+											"top": 128,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 344,
+									"left": 1080,
+									"top": 472,
 									"width": 169.427734375,
 									"height": 38,
 									"stereotypeLabel": {
@@ -17180,8 +17216,8 @@
 										"$ref": "AAAAAAGIHn95Ye2CNO0="
 									},
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 382,
+									"left": 1080,
+									"top": 510,
 									"width": 169.427734375,
 									"height": 10
 								},
@@ -17205,8 +17241,8 @@
 												"$ref": "AAAAAAGIHoEVB+3BErw="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 397,
+											"left": 1085,
+											"top": 525,
 											"width": 159.427734375,
 											"height": 13,
 											"text": "+checkRule()",
@@ -17214,8 +17250,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 392,
+									"left": 1080,
+									"top": 520,
 									"width": 169.427734375,
 									"height": 23
 								},
@@ -17230,8 +17266,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 208,
-									"top": -64,
+									"left": 216,
+									"top": 64,
 									"width": 10,
 									"height": 10
 								},
@@ -17246,16 +17282,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 208,
-									"top": -64,
+									"left": 216,
+									"top": 64,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1072,
-							"top": 344,
+							"left": 1080,
+							"top": 472,
 							"width": 169.427734375,
 							"height": 71,
 							"nameCompartment": {
@@ -17295,8 +17331,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 966,
-									"top": 290,
+									"left": 965,
+									"top": 437,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -17317,7 +17353,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 959,
-									"top": 303,
+									"top": 451,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -17337,8 +17373,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 981,
-									"top": 263,
+									"left": 976,
+									"top": 410,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -17356,7 +17392,7 @@
 								"$ref": "AAAAAAGIHn95Ye2Eizk="
 							},
 							"lineStyle": 1,
-							"points": "1088:343;861:223",
+							"points": "1079:473;863:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHoDIOe2xo10="
@@ -17395,8 +17431,8 @@
 												"$ref": "AAAAAAGIHoHXwe3WZs4="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 261,
+											"left": 1085,
+											"top": 389,
 											"width": 117.53955078125,
 											"height": 13,
 											"text": "«用券转赠规则»"
@@ -17408,8 +17444,8 @@
 												"$ref": "AAAAAAGIHoHXwe3WZs4="
 											},
 											"font": "Arial;13;1",
-											"left": 1077,
-											"top": 276,
+											"left": 1085,
+											"top": 404,
 											"width": 117.53955078125,
 											"height": 13,
 											"text": "TicketGiveRule"
@@ -17422,9 +17458,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 688,
-											"top": -400,
-											"width": 64.27001953125,
+											"left": 704,
+											"top": -144,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -17436,15 +17472,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 688,
-											"top": -400,
+											"left": 704,
+											"top": -144,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 256,
+									"left": 1080,
+									"top": 384,
 									"width": 127.53955078125,
 									"height": 38,
 									"stereotypeLabel": {
@@ -17470,8 +17506,8 @@
 										"$ref": "AAAAAAGIHoHXwO3T9xk="
 									},
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 294,
+									"left": 1080,
+									"top": 422,
 									"width": 127.53955078125,
 									"height": 10
 								},
@@ -17495,8 +17531,8 @@
 												"$ref": "AAAAAAGIHoWKvu4KqHk="
 											},
 											"font": "Arial;13;0",
-											"left": 1077,
-											"top": 309,
+											"left": 1085,
+											"top": 437,
 											"width": 117.53955078125,
 											"height": 13,
 											"text": "+checkRule()",
@@ -17504,8 +17540,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1072,
-									"top": 304,
+									"left": 1080,
+									"top": 432,
 									"width": 127.53955078125,
 									"height": 23
 								},
@@ -17520,8 +17556,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 344,
-									"top": -200,
+									"left": 352,
+									"top": -72,
 									"width": 10,
 									"height": 10
 								},
@@ -17536,16 +17572,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 344,
-									"top": -200,
+									"left": 352,
+									"top": -72,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1072,
-							"top": 256,
+							"left": 1080,
+							"top": 384,
 							"width": 127.53955078125,
 							"height": 71,
 							"nameCompartment": {
@@ -17585,8 +17621,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 972,
-									"top": 251,
+									"left": 981,
+									"top": 395,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -17606,8 +17642,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 968,
-									"top": 265,
+									"left": 978,
+									"top": 410,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -17627,8 +17663,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 981,
-									"top": 222,
+									"left": 988,
+									"top": 366,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -17646,7 +17682,7 @@
 								"$ref": "AAAAAAGIHoHXwe3VN4E="
 							},
 							"lineStyle": 1,
-							"points": "1071:272;884:215",
+							"points": "1079:406;892:368",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHoXkRu4b/uc="
@@ -17685,9 +17721,9 @@
 												"$ref": "AAAAAAGIHpXBJu6C4Fs="
 											},
 											"font": "Arial;13;0",
-											"left": 837,
-											"top": 405,
-											"width": 105.4599609375,
+											"left": 733,
+											"top": 525,
+											"width": 108.44970703125,
 											"height": 13,
 											"text": "«券独立使用规则»"
 										},
@@ -17698,9 +17734,9 @@
 												"$ref": "AAAAAAGIHpXBJu6C4Fs="
 											},
 											"font": "Arial;13;1",
-											"left": 837,
-											"top": 420,
-											"width": 105.4599609375,
+											"left": 733,
+											"top": 540,
+											"width": 108.44970703125,
 											"height": 13,
 											"text": "TicketSingleRule"
 										},
@@ -17712,9 +17748,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 80,
-											"top": 32,
-											"width": 64.27001953125,
+											"left": -128,
+											"top": 272,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -17726,16 +17762,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 80,
-											"top": 32,
+											"left": -128,
+											"top": 272,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 832,
-									"top": 400,
-									"width": 115.4599609375,
+									"left": 728,
+									"top": 520,
+									"width": 118.44970703125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIHpXBJ+6Dmv4="
@@ -17760,9 +17796,9 @@
 										"$ref": "AAAAAAGIHpXBJu5/HCg="
 									},
 									"font": "Arial;13;0",
-									"left": 832,
-									"top": 438,
-									"width": 115.4599609375,
+									"left": 728,
+									"top": 558,
+									"width": 118.44970703125,
 									"height": 10
 								},
 								{
@@ -17785,18 +17821,18 @@
 												"$ref": "AAAAAAGIHskYhO60txk="
 											},
 											"font": "Arial;13;0",
-											"left": 837,
-											"top": 453,
-											"width": 105.4599609375,
+											"left": 733,
+											"top": 573,
+											"width": 108.44970703125,
 											"height": 13,
 											"text": "+checkRule()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 832,
-									"top": 448,
-									"width": 115.4599609375,
+									"left": 728,
+									"top": 568,
+									"width": 118.44970703125,
 									"height": 23
 								},
 								{
@@ -17810,8 +17846,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 40,
-									"top": 16,
+									"left": -64,
+									"top": 136,
 									"width": 10,
 									"height": 10
 								},
@@ -17826,17 +17862,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 40,
-									"top": 16,
+									"left": -64,
+									"top": 136,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 832,
-							"top": 400,
-							"width": 115.4599609375,
+							"left": 728,
+							"top": 520,
+							"width": 118.44970703125,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIHpXBJu6C4Fs="
@@ -17882,8 +17918,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 32,
-											"top": -128,
+											"left": -416,
+											"top": 176,
 											"height": 13
 										},
 										{
@@ -17893,9 +17929,9 @@
 												"$ref": "AAAAAAGIHsvbfu6+Le0="
 											},
 											"font": "Arial;13;1",
-											"left": 469,
-											"top": 159,
-											"width": 132.716796875,
+											"left": 245,
+											"top": 311,
+											"width": 264.31005859375,
 											"height": 13,
 											"text": "UseTicketAppService"
 										},
@@ -17907,9 +17943,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 32,
-											"top": -128,
-											"width": 64.27001953125,
+											"left": -416,
+											"top": 176,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -17921,16 +17957,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 32,
-											"top": -128,
+											"left": -416,
+											"top": 176,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 464,
-									"top": 152,
-									"width": 142.716796875,
+									"left": 240,
+									"top": 304,
+									"width": 274.31005859375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIHsvbfu6/9qo="
@@ -17955,9 +17991,9 @@
 										"$ref": "AAAAAAGIHsvbfe67jYI="
 									},
 									"font": "Arial;13;0",
-									"left": 464,
-									"top": 177,
-									"width": 142.716796875,
+									"left": 240,
+									"top": 329,
+									"width": 274.31005859375,
 									"height": 10
 								},
 								{
@@ -17980,18 +18016,18 @@
 												"$ref": "AAAAAAGIHtL/7PELjAU="
 											},
 											"font": "Arial;13;0",
-											"left": 469,
-											"top": 192,
-											"width": 132.716796875,
+											"left": 245,
+											"top": 344,
+											"width": 264.31005859375,
 											"height": 13,
-											"text": "+doMain()",
+											"text": "+doMain(UseTicketCommand command)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 464,
-									"top": 187,
-									"width": 142.716796875,
+									"left": 240,
+									"top": 339,
+									"width": 274.31005859375,
 									"height": 23
 								},
 								{
@@ -18005,8 +18041,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 16,
-									"top": -64,
+									"left": -208,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								},
@@ -18021,17 +18057,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 16,
-									"top": -64,
+									"left": -208,
+									"top": 88,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 464,
-							"top": 152,
-							"width": 142.716796875,
+							"left": 240,
+							"top": 304,
+							"width": 274.31005859375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIHsvbfu6+Le0="
@@ -18070,8 +18106,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 654,
-									"top": 191,
+									"left": 547,
+									"top": 343,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -18091,8 +18127,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 654,
-									"top": 206,
+									"left": 547,
+									"top": 358,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -18112,8 +18148,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 655,
-									"top": 162,
+									"left": 548,
+									"top": 313,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -18133,8 +18169,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 676,
-									"top": 193,
+									"left": 556,
+									"top": 343,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -18154,8 +18190,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 673,
-									"top": 206,
+									"left": 554,
+									"top": 356,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -18175,8 +18211,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 681,
-									"top": 165,
+									"left": 561,
+									"top": 316,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -18196,8 +18232,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 632,
-									"top": 191,
+									"left": 539,
+									"top": 343,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -18216,8 +18252,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 634,
-									"top": 205,
+									"left": 541,
+									"top": 356,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -18236,8 +18272,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 629,
-									"top": 164,
+									"left": 535,
+									"top": 315,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -18256,6 +18292,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
+									"left": 8,
+									"top": 128,
 									"width": 10,
 									"height": 10
 								},
@@ -18270,6 +18308,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
+									"left": 8,
+									"top": 128,
 									"width": 10,
 									"height": 10
 								}
@@ -18282,7 +18322,7 @@
 								"$ref": "AAAAAAGIHiXqFOsZv+c="
 							},
 							"lineStyle": 1,
-							"points": "703:185;607:182",
+							"points": "583:335;514:334",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHsy23+9Uhco="
@@ -18345,8 +18385,8 @@
 												"$ref": "AAAAAAGIHtDSVO/9dRk="
 											},
 											"font": "Arial;13;0",
-											"left": 661,
-											"top": 397,
+											"left": 533,
+											"top": 525,
 											"width": 152.166015625,
 											"height": 13,
 											"text": "«用券累加规则»"
@@ -18358,8 +18398,8 @@
 												"$ref": "AAAAAAGIHtDSVO/9dRk="
 											},
 											"font": "Arial;13;1",
-											"left": 661,
-											"top": 412,
+											"left": 533,
+											"top": 540,
 											"width": 152.166015625,
 											"height": 13,
 											"text": "TicketMostAddRule"
@@ -18372,9 +18412,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 30,
-											"top": 161,
-											"width": 64.27001953125,
+											"left": -226,
+											"top": 417,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -18386,15 +18426,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 30,
-											"top": 161,
+											"left": -226,
+											"top": 417,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 656,
-									"top": 392,
+									"left": 528,
+									"top": 520,
 									"width": 162.166015625,
 									"height": 38,
 									"stereotypeLabel": {
@@ -18420,8 +18460,8 @@
 										"$ref": "AAAAAAGIHpD+b+4uays="
 									},
 									"font": "Arial;13;0",
-									"left": 656,
-									"top": 430,
+									"left": 528,
+									"top": 558,
 									"width": 162.166015625,
 									"height": 10
 								},
@@ -18445,8 +18485,8 @@
 												"$ref": "AAAAAAGIHpWO1e5ljtI="
 											},
 											"font": "Arial;13;0",
-											"left": 661,
-											"top": 445,
+											"left": 533,
+											"top": 573,
 											"width": 152.166015625,
 											"height": 13,
 											"text": "+checkRule()",
@@ -18454,8 +18494,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 656,
-									"top": 440,
+									"left": 528,
+									"top": 568,
 									"width": 162.166015625,
 									"height": 23
 								},
@@ -18470,8 +18510,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 112,
-									"top": 40,
+									"left": -16,
+									"top": 168,
 									"width": 10,
 									"height": 10
 								},
@@ -18486,16 +18526,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 112,
-									"top": 40,
+									"left": -16,
+									"top": 168,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 656,
-							"top": 392,
+							"left": 528,
+							"top": 520,
 							"width": 162.166015625,
 							"height": 71,
 							"nameCompartment": {
@@ -18535,8 +18575,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 749,
-									"top": 297,
+									"left": 655,
+									"top": 439,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -18556,8 +18596,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 734,
-									"top": 294,
+									"left": 642,
+									"top": 431,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -18577,8 +18617,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 778,
-									"top": 304,
+									"left": 680,
+									"top": 454,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -18596,7 +18636,7 @@
 								"$ref": "AAAAAAGIHtDSVO/83WY="
 							},
 							"lineStyle": 1,
-							"points": "745:391;784:223",
+							"points": "629:519;707:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHtJyvvB8wGA="
@@ -18629,8 +18669,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 827,
-									"top": 310,
+									"left": 748,
+									"top": 450,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -18650,8 +18690,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 813,
-									"top": 315,
+									"left": 733,
+									"top": 453,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -18671,8 +18711,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 854,
-									"top": 299,
+									"left": 777,
+									"top": 443,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -18690,7 +18730,7 @@
 								"$ref": "AAAAAAGIHpXBJu6Bw+4="
 							},
 							"lineStyle": 1,
-							"points": "875:399;807:223",
+							"points": "778:519;748:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHtLFfvDLZFs="
@@ -18729,9 +18769,9 @@
 												"$ref": "AAAAAAGIHtUvbfHUKv4="
 											},
 											"font": "Arial;13;0",
-											"left": 509,
-											"top": 397,
-											"width": 123.9951171875,
+											"left": 461,
+											"top": 429,
+											"width": 152.166015625,
 											"height": 13,
 											"text": "«券满减规则»"
 										},
@@ -18742,11 +18782,11 @@
 												"$ref": "AAAAAAGIHtUvbfHUKv4="
 											},
 											"font": "Arial;13;1",
-											"left": 509,
-											"top": 412,
-											"width": 123.9951171875,
+											"left": 461,
+											"top": 444,
+											"width": 152.166015625,
 											"height": 13,
-											"text": "TicketFullReduction"
+											"text": "TicketFullReductionRule"
 										},
 										{
 											"_type": "LabelView",
@@ -18756,9 +18796,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": 144,
-											"width": 64.27001953125,
+											"left": 48,
+											"top": 208,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -18770,16 +18810,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": 144,
+											"left": 48,
+											"top": 208,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 504,
-									"top": 392,
-									"width": 133.9951171875,
+									"left": 456,
+									"top": 424,
+									"width": 162.166015625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIHtUvbfHVUlY="
@@ -18804,9 +18844,9 @@
 										"$ref": "AAAAAAGIHtUvbfHR9fo="
 									},
 									"font": "Arial;13;0",
-									"left": 504,
-									"top": 430,
-									"width": 133.9951171875,
+									"left": 456,
+									"top": 462,
+									"width": 162.166015625,
 									"height": 10
 								},
 								{
@@ -18829,18 +18869,18 @@
 												"$ref": "AAAAAAGIHtW6vPIvYq4="
 											},
 											"font": "Arial;13;0",
-											"left": 509,
-											"top": 445,
-											"width": 123.9951171875,
+											"left": 461,
+											"top": 477,
+											"width": 152.166015625,
 											"height": 13,
 											"text": "+checkRule()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 504,
-									"top": 440,
-									"width": 133.9951171875,
+									"left": 456,
+									"top": 472,
+									"width": 162.166015625,
 									"height": 23
 								},
 								{
@@ -18854,8 +18894,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 72,
-									"top": 72,
+									"left": 24,
+									"top": 104,
 									"width": 10,
 									"height": 10
 								},
@@ -18870,17 +18910,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 72,
-									"top": 72,
+									"left": 24,
+									"top": 104,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 504,
-							"top": 392,
-							"width": 133.9951171875,
+							"left": 456,
+							"top": 424,
+							"width": 162.166015625,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIHtUvbfHUKv4="
@@ -18919,8 +18959,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 670,
-									"top": 290,
+									"left": 617,
+									"top": 386,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -18940,8 +18980,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 659,
-									"top": 280,
+									"left": 609,
+									"top": 373,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -18961,8 +19001,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 691,
-									"top": 311,
+									"left": 632,
+									"top": 411,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -18980,7 +19020,7 @@
 								"$ref": "AAAAAAGIHtUvbfHT11I="
 							},
 							"lineStyle": 1,
-							"points": "603:391;760:223",
+							"points": "595:423;655:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIHtYg9fKjD7w="
@@ -19000,7 +19040,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGIHiWmjOrOnok="
 					},
-					"name": "IUseTicketDomainService",
+					"name": "AbstractUseTicketRule",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -19032,6 +19072,19 @@
 						}
 					],
 					"stereotype": "用券规则领域service接口",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIPUBJGEmr8yQ=",
+							"_parent": {
+								"$ref": "AAAAAAGIHiXqE+sXonU="
+							},
+							"name": "nextUseTicketRule",
+							"type": {
+								"$ref": "AAAAAAGIHiXqE+sXonU="
+							}
+						}
+					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -19040,7 +19093,35 @@
 								"$ref": "AAAAAAGIHiXqE+sXonU="
 							},
 							"name": "checkRule",
-							"stereotype": "验证券规则"
+							"stereotype": "验证券规则",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGIPTx6CUgzEAk=",
+									"_parent": {
+										"$ref": "AAAAAAGIHjBXMex0ir0="
+									},
+									"name": "TicketBatchDO batchDO"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGIPT5KWUk2H+w=",
+							"_parent": {
+								"$ref": "AAAAAAGIHiXqE+sXonU="
+							},
+							"name": "setNextRule",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGIPT6j4Elc24s=",
+									"_parent": {
+										"$ref": "AAAAAAGIPT5KWUk2H+w="
+									},
+									"name": "AbstractUseTicketRule rule"
+								}
+							]
 						}
 					]
 				},
@@ -19079,7 +19160,7 @@
 							}
 						}
 					],
-					"stereotype": "用券有效期实现",
+					"stereotype": "用券有效期规则",
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -19312,7 +19393,17 @@
 							"_parent": {
 								"$ref": "AAAAAAGIHsvbfe67jYI="
 							},
-							"name": "doMain"
+							"name": "doMain",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGIPVVpWUzTzZc=",
+									"_parent": {
+										"$ref": "AAAAAAGIHtL/7PELjAU="
+									},
+									"name": "UseTicketCommand command"
+								}
+							]
 						}
 					]
 				},
@@ -19322,7 +19413,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGIHiWmjOrOnok="
 					},
-					"name": "TicketFullReduction",
+					"name": "TicketFullReductionRule",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -19349,6 +19440,22 @@
 							"name": "checkRule"
 						}
 					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGIPU3z/UsRoC0=",
+					"_parent": {
+						"$ref": "AAAAAAGIHiWmjOrOnok="
+					},
+					"name": "ITicketBatchDomainService"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGIPVFn90vpA3w=",
+					"_parent": {
+						"$ref": "AAAAAAGIHiWmjOrOnok="
+					},
+					"name": "Class1"
 				}
 			]
 		}

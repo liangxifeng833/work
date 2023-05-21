@@ -1,0 +1,32 @@
+@startuml
+title 用券有效期规则-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "TicketDateRule\n券有效期规则A" as A  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	group 从规则链中的第一个开始做验证
+	C->A:checkRule(batchDO)
+	activate A
+			group 验证有效期
+			    note over A
+			        通过电子券批次主键查询连续有效期表
+			        判断如果未在有效期范围内，则验证失败，抛出异常
+			    end note
+			end
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml

@@ -1,0 +1,60 @@
+@startuml
+title 用券时验证是否可用-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "TicketDateRule\n券有效期规则A" as A  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	/'===========验证参数=============='/
+	note over C
+		通过使用码查询电子券表数据获取批次主键
+		通过批次主键查询券批次表获取批次数据 ticketBatchDO
+		<b><color:red>初始规则链：</b>
+		1.初始化用券有效期规则
+        AbstractUseTicketRule dateRule = TicketDateRule();
+        2.用券转赠规则
+        AbstractUseTicketRule giveRule = TicketGiveRule();
+        设置有效期规则的下一个规则
+        dateRule.setNextRule(giveRule);
+        3.用券状态规则
+        AbstractUseTicketRule statusRule = TicketStatusRule();
+        giveRule.setNextRule(statusRule);
+        4.用券黑白名单规则
+        AbstractUseTicketRule blackRule = TicketBlackWhiteRule();
+        statusRule.setNextRule(blackRule);
+        5.券满减规则
+        AbstractUseTicketRule fullRule = TicketFullReductionRule();
+        blackRule.setNextRule(fullRule);
+        6.累加规则
+        AbstractUseTicketRule mostAddRule = TicketMostAddRule();
+        fullRule.setNextRule(mostAddRule);
+        7.独立使用规则
+        AbstractUseTicketRule singleRule = TicketSingleRule();
+        mostAddRule.setNextRule(singleRule);
+	end note
+
+	group 从规则链中的第一个开始做验证
+	C->A:checkRule(batchDO)
+	activate A
+			group 验证有效期
+			    note over A
+			        通过电子券批次主键查询连续有效期表
+			        判断如果未在有效期范围内，则验证失败，抛出异常
+			    end note
+			end
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml
