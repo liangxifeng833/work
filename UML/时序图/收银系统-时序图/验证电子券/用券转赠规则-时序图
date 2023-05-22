@@ -1,11 +1,10 @@
 @startuml
-title 用券有效期规则-时序图
+title 用券转赠规则-时序图
 
 actor controller #red
 /'-------------定义参与者别名 -------------------'/
 participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
-participant "TicketDateRule\n券有效期规则A" as A  #FFFFFF
-participant "TicketBatchLifecycleContinue\n券连续有效期表" as date  #FFFFFF
+participant "TicketGiveRule\n券转赠规则A" as A  #FFFFFF
 
 
 controller->C:doMain(UseTicketCommand command)
@@ -13,14 +12,10 @@ activate C
 	group 从规则链中的第一个开始做验证
 	C->A:checkRule(batchDO)
 	activate A
-			group 验证有效期
-			        A->date:通过券批次主键查询连续有效期表
-			        date-->A: dateRes
-			        alt 当前时间 < 开始时间
-			            A-->C: 电子券不在有效期范围内
-			        else 当前时间 > 截止时间
-			            A-->C: 使用码已过期
-			        end
+			group 用券转赠规则
+			      alt batch.astrict_rule == 1(不可以转赠) and batch.ticket_send_object != 参数手机号
+			        A-->C: 当前手机号与发送手机号不一致且不可转赠
+			      end
 			end
 			group 进行下一个规则链的验证
 			    alt 如果 this.nextUseTicketRule != null

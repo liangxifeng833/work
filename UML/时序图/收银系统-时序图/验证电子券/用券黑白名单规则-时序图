@@ -1,0 +1,34 @@
+@startuml
+title 用券黑白名单规则-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "TicketBlackWhiteRule\n券黑白名单规则A" as A  #FFFFFF
+participant "TicketBatchMerchantList\n券黑白名单表" as merchant  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	C->A:checkRule(batchDO)
+	activate A
+			group 验证黑白名单
+			    A->merchant: 通过券批次主键和K代码查询商户黑白名单表
+                merchant-->A: res
+                alt batch.batch_merchant_range == 1（黑名单）and res有数据
+                    A-->C: 该商户是黑名单商户
+                else batch.batch_merchant_range == 2（白名单）and res无数据
+                    A-->C:该商户不在白名单商户中
+                end
+			end
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml

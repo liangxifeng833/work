@@ -1,0 +1,40 @@
+@startuml
+title 用券独立使用规则-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "TicketSingleRule\n券独立使用规则A" as A  #FFFFFF
+participant "TicketBatchBindRelation\n券批次绑定关系表" as bind  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	C->A:checkRule(batchDO,command)
+	activate A
+			group 验证独立使用规则
+			    alt 是否独立使用字段=1（独立使用）and command.UUID != null
+                    note over A
+                        去redis中拿数据
+                        use_ticket_合同号_UUID = {券使用码：券批次主键}
+                        use_batch_合同号_UUID = {券批次主键：使用张数}
+                        alt use_batch_合同号_UUID 的数量>1 and use_batch_合同号_UUID.券批次主键 ==
+                            A-->C: 独立使用券，不能与其他券批次共用
+                        end
+                    end note
+                else 是否独立使用字段=2（绑定主券）
+                    A->bind: 通过副券主键查询 券批次绑定关系表
+                    bind-->A: bindRes
+                end
+			end
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml

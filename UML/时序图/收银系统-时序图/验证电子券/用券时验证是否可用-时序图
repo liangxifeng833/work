@@ -53,6 +53,16 @@ activate C
 			end
     end
     deactivate A
+	group 验证通过，可以用券，则向redis中新增数据
+	    alt command.UUID == null 代表用的是第一张券
+	        note over C: 生成UUID
+	    end
+	    note over C
+	        向redis中新增数据
+	           use_ticket_合同号_UUID = {券使用码：券批次主键}
+	           use_batch_合同号_UUID = {券批次主键：使用张数}
+	    end note
+	end
 
 C-->controller:
 deactivate C
