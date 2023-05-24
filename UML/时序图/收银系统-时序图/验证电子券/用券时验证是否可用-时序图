@@ -9,10 +9,30 @@ participant "TicketDateRule\n券有效期规则A" as A  #FFFFFF
 
 controller->C:doMain(UseTicketCommand command)
 activate C
-	/'===========验证参数=============='/
+    note over C
+        UseTicketCommand属性说明：
+            ticketUseCode: 券使用码
+    	    surplusPay 剩余未支付额
+    	    familystatus 与蓝景装饰合作标识
+    	    limitValue 剩余额度空间
+    	    uuid 通讯唯一识别码，用第一张券后，该识别码会传递给前端
+    end note
+
 	note over C
 		通过使用码查询电子券表数据获取批次主键
 		通过批次主键查询券批次表获取批次数据 ticketBatchDO
+	end note
+	alt  券面额 > command.剩余未支付额 AND familystatus=0(不与蓝景装饰合作)
+	    C-->controller: 电子券面额大于剩余未支付额，不可用券
+	end
+
+	group 生成UUID
+		    alt command.uuid == null
+    	        note over C: 生成UUID
+    	    end
+	end
+
+	note over C
 		<b><color:red>初始规则链：</b>
 		1.初始化用券有效期规则
         AbstractUseTicketRule dateRule = TicketDateRule();
@@ -54,13 +74,13 @@ activate C
     end
     deactivate A
 	group 验证通过，可以用券，则向redis中新增数据
-	    alt command.UUID == null 代表用的是第一张券
-	        note over C: 生成UUID
-	    end
 	    note over C
 	        向redis中新增数据
 	           use_ticket_合同号_UUID = {券使用码：券批次主键}
 	           use_batch_合同号_UUID = {券批次主键：使用张数}
+
+	           <b><color:red>注意：这里需要判断当前批次独立使用规则 如果是独立使用则 初始化redis中的独立使用标识
+	           batch_other_合同号_UUID.single_batch_id: 独立使用的券批次主键
 	    end note
 	end
 

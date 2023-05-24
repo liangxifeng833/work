@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券时验证是否可用-时序图" />
-    <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券时验证是否可用-时序图 - 副本" />
     <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券有效期规则-时序图" />
+    <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券满减规则-时序图" />
+    <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券独立使用规则-时序图" />
+    <file url="file://$PROJECT_DIR$/收银系统-时序图/验证电子券/用券累加规则-时序图" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

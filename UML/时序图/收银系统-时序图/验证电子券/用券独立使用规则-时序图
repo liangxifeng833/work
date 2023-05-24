@@ -13,19 +13,38 @@ activate C
 	C->A:checkRule(batchDO,command)
 	activate A
 			group 验证独立使用规则
-			    alt 是否独立使用字段=1（独立使用）and command.UUID != null
+			    alt command.uuid != null 如果不是第一张券
                     note over A
                         去redis中拿数据
                         use_ticket_合同号_UUID = {券使用码：券批次主键}
                         use_batch_合同号_UUID = {券批次主键：使用张数}
-                        alt use_batch_合同号_UUID 的数量>1 and use_batch_合同号_UUID.券批次主键 ==
-                            A-->C: 独立使用券，不能与其他券批次共用
-                        end
+                        batch_single_合同号_UUID = 券批次主键  (STRING 已用券列表中独立使用券批次主键)
                     end note
-                else 是否独立使用字段=2（绑定主券）
-                    A->bind: 通过副券主键查询 券批次绑定关系表
-                    bind-->A: bindRes
+			    end
+
+                group <b><color:red>之前用过的券独立使用
+                    alt 之前redis中之前已用券存储独立使用的券批次
+                        A-->C: 独立使用券，不能与其他券批次共用
+                    end
                 end
+                group <b><color:red>当前券独立使用
+			    alt 是否独立使用字段=1（当前券独立使用）
+			        note over A: 不同批次验证是否独立使用，同一批次不处理
+
+                    alt use_batch_合同号_UUID 的数量 > 1 \nOR use_batch_合同号_UUID.券批次主键 != batchDO.券批次主键
+                         A-->C: 独立使用券，不能与其他券批次共用
+                    end
+
+                end /'group'/
+                group <b><color:red>绑定券
+                    else 是否独立使用字段=2（绑定主券）
+                        A->bind: 通过副券主键查询 券批次绑定关系表
+                        bind-->A: bindRes
+                        alt bindRes.主券批次主键 不存在于 use_batch_合同号_UUID 中
+                            A-->C: 该券为副券，若要使用，请至少先使用1张主券！
+                        end
+                    end
+                end/'group'/
 			end
 			group 进行下一个规则链的验证
 			    alt 如果 this.nextUseTicketRule != null

@@ -1,0 +1,40 @@
+@startuml
+title 用券累加规则-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "TicketMostAddRule\n券累加规则A" as A  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	C->A:checkRule(batchDO,command)
+	activate A
+			group 验证累加规则
+			    alt command.UUID != null
+			        note over A
+                        去redis中拿数据
+                        use_ticket_合同号_UUID = {券使用码：券批次主键}
+                        use_batch_合同号_UUID = {券批次主键：使用张数}
+			        end note
+			    end
+			    alt 当前券批次已用券数量 > batchDO.condition_number（可用几张）\nAND batchDO.condition_type = 0 (不允许累加)
+			        A-->C: 该批次券不允许累加使用
+			    else batchDO.most_add_number（最多累加几张） > 0 (不做处理) AND 最多累加几张 > 当前券批次已用券数量
+			        A-->C: 该批次券超过最多累加张数
+			    end
+			end
+
+
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml
