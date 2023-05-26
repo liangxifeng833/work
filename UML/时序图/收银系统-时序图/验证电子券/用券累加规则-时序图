@@ -26,6 +26,10 @@ activate C
 			    end
 			end
 
+			alt 如果券使用码已经存在于redis中了
+			    A-->C: 该券为已用券
+			end
+
 
 			group 进行下一个规则链的验证
 			    alt 如果 this.nextUseTicketRule != null

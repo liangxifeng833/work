@@ -1,0 +1,92 @@
+@startuml
+title 取消用券时验证是否可取消-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "CancelTicketAppService\n取消电子券用券APP service C" as C  #00FF00
+participant "CancelTicketSingleRule\n取消券独立使用规则A" as A  #FFFFFF
+participant "TicketBatchBindRelation\n券批次绑定关系表" as bind  #FFFFFF
+
+
+controller->C:doMain(CancelTicketCommand command)
+activate C
+    note over C
+        CancelTicketCommand属性说明：
+            ticketUseCode: 券使用码
+    	    uuid 通讯唯一识别码，用第一张券后，该识别码会传递给前端
+    end note
+
+	note over C
+		去redis中取数据
+		use_ticket_合同号_UUID = {券使用码：券批次主键}
+        use_batch_合同号_UUID = {券批次主键：使用张数}
+	end note
+
+
+	note over C
+		<b><color:red>初始规则链：</b>
+		1.初始化独立使用规则
+        AbstractCancelTicketRule  singleRule = CancelTicketSingleRule();
+        2.券满减规则
+        AbstractCancelTicketRule fullRule = CancelTicketFullReductionRule();
+        设置有效期规则的下一个规则
+        singleRule.setNextRule(fullRule);
+	end note
+
+	group 从规则链中的第一个开始做验证
+	C->A:checkRule(batchDO，command)
+	activate A
+			group 验证主券删除规则
+			    alt 通过使用码查询redis中已用券列表，如不存在则抛出异常
+			        A-->C: 该使用码没有用过券
+			    end
+			    A->bind:通过主券主键 查询 \n券批次表绑定关系表查询所有副券
+			    bind-->A: bindRes
+
+			    alt bindRes 存在，也就是有副券
+			        note over A
+			            定义跟随主券一同删除的副券（该副券有且只有一个主券）
+			            childTicketUseCodeList;
+			        end note
+			        loop bindRes
+			            alt 如果该副券存在于redis已用券列表中
+			                A->bind: 通过副券主键循环查询券批次绑定关系表
+                            bind-->A: 返回副券绑定的主券
+			            end
+			            alt 副券绑定的主券数量 == 1
+			                note over A
+			                    childTicketUseCodeList.add(副券使用码，注意这里可能有多个)
+			                end note
+			            end
+			        end /'loop'/
+			    end
+			    note over A
+			        删除redis中当前券，以及符合条件的副券
+			        use_ticket_合同号_UUID = {券使用码：券批次主键}
+                    use_batch_合同号_UUID = {券批次主键：使用张数-n}
+                    如果batchDO.独立使用状态=独立使用，则需要修改reids中独立使用状态 single_batch_id = 0
+			    end note
+                alt 该批次已用券张数 / batchDO.condition_number(可用张数) = 整数 （每个阶梯的第一次计算）
+                    note over A
+                        例：电子券限制：满5000用1张，最多用10张
+                        则判断是否用足10张，若用足则判断剩余合同
+                        额度是否满5000，若不满则返回额度不够
+                    end note
+                    note over A
+                        设置reids中满减剩余空间额度 （当前的额度 + 此电子券占的额度）
+                        batch_other_合同号_UUID.limit_value + = batchDO.condition_value
+                    end note
+		        end
+			end
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml

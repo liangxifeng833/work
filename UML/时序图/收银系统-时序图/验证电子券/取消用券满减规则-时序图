@@ -1,0 +1,49 @@
+@startuml
+title 取消用券满减规则-时序图
+
+actor controller #red
+/'-------------定义参与者别名 -------------------'/
+participant "UseTicketAppService\n电子券用券APP service C" as C  #00FF00
+participant "CancelTicketFullReductionRule\n取消券满减规则A" as A  #FFFFFF
+
+
+controller->C:doMain(UseTicketCommand command)
+activate C
+	C->A:checkRule(batchDO,command)
+	activate A
+			group 验证满减规则
+			    alt command.UUID != null
+			        note over A
+                        去redis中拿数据
+                        use_ticket_合同号_UUID = {券使用码：券批次主键}
+                        use_batch_合同号_UUID = {券批次主键：使用张数}
+			        end note
+			    end
+			end
+
+		    alt 该批次已用券张数 / batchDO.condition_number(可用张数) = 整数 （每个阶梯的第一次计算）
+		        note over A
+                    例：电子券限制：满5000用1张，最多用10张
+			        则判断是否用足10张，若用足则判断剩余合同
+			        额度是否满5000，若不满则返回额度不够
+		        end note
+		        alt batchDO.condition_value(满多少) > 满减剩余额度空间 && 非蓝景装饰合作单子
+		            A-->C: 满减剩余空间额度不够
+		        end
+		        note over A
+		            设置reids中满减剩余空间额度 （当前的额度 减去 此电子券占的额度）
+		            batch_other_合同号_UUID.limit_value - = batchDO.condition_value
+		        end note
+		    end
+
+			group 进行下一个规则链的验证
+			    alt 如果 this.nextUseTicketRule != null
+			        note over A: nextUseTicketRule.checkRule(batchDO)
+			    end
+			end
+    deactivate A
+
+C-->controller:
+deactivate C
+
+@enduml
