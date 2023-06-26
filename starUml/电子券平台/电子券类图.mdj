@@ -16818,10 +16818,11 @@
 							},
 							"fontColor": "#007c3e",
 							"font": "Arial;13;0",
-							"left": 432,
+							"left": 496,
+							"top": 40,
 							"width": 537,
 							"height": 169,
-							"text": "redis中存储电子券hash结构：（有效期均为1小时）\n\n-------------------------------------------------------------\nkey1 = use_ticket_合同号_UUID (HASH)\nvalue1 = {券使用码:券批次主键}\n--------------------------------------------------------------\nkey2 = use_batch_合同号_UUID(HASH)\nvalue2 =  {券批次主键 : 使用张数}\n--------------------------------------------------------------\nkey3 = batch_other_合同号_UUID (HASH) \nvalue = { single_batch_id: 独立使用的券批次主键, limit_value: 满减剩余额度空间)"
+							"text": "redis中存储电子券hash结构：（有效期均为1小时）\n\n-------------------------------------------------------------\nkey1 = use_ticket_合同号_UUID (HASH)\nvalue1 = {券使用码:券批次主键}\n--------------------------------------------------------------\nkey2 = use_batch_合同号_UUID(HASH)\nvalue2 =  {券批次主键 : 使用张数}\n--------------------------------------------------------------\nkey3 = batch_other_合同号_UUID (HASH) \nvalue = { single_batch_id: 独立使用的券批次主键, limit_value: 满减剩余额度空间)\n"
 						},
 						{
 							"_type": "UMLClassView",
@@ -19060,7 +19061,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 653,
-											"width": 279.7412109375,
+											"width": 295.19775390625,
 											"height": 13,
 											"text": "«取消券规则抽象类»"
 										},
@@ -19073,7 +19074,7 @@
 											"font": "Arial;13;1",
 											"left": 525,
 											"top": 668,
-											"width": 279.7412109375,
+											"width": 295.19775390625,
 											"height": 13,
 											"text": "AbstractCancelTicketRule"
 										},
@@ -19087,7 +19088,7 @@
 											"font": "Arial;13;0",
 											"left": -112,
 											"top": -240,
-											"width": 64.27001953125,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -19108,7 +19109,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 648,
-									"width": 289.7412109375,
+									"width": 305.19775390625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIVxWhLYNJqEA="
@@ -19145,7 +19146,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 691,
-											"width": 279.7412109375,
+											"width": 295.19775390625,
 											"height": 13,
 											"text": "«AbstractCancelTicketRule»+nextUseTicketRule",
 											"horizontalAlignment": 0
@@ -19154,7 +19155,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 686,
-									"width": 289.7412109375,
+									"width": 305.19775390625,
 									"height": 23
 								},
 								{
@@ -19179,7 +19180,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 714,
-											"width": 279.7412109375,
+											"width": 295.19775390625,
 											"height": 13,
 											"text": "+checkRule(command)",
 											"horizontalAlignment": 0
@@ -19196,7 +19197,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 729,
-											"width": 279.7412109375,
+											"width": 295.19775390625,
 											"height": 13,
 											"text": "+setNextRule(AbstractCancelTicketRule rule)",
 											"horizontalAlignment": 0
@@ -19205,7 +19206,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 709,
-									"width": 289.7412109375,
+									"width": 305.19775390625,
 									"height": 38
 								},
 								{
@@ -19245,7 +19246,7 @@
 							"containerChangeable": true,
 							"left": 520,
 							"top": 648,
-							"width": 289.7412109375,
+							"width": 305.19775390625,
 							"height": 99,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIVxWhLYNIab4="
@@ -19304,7 +19305,7 @@
 											"font": "Arial;13;1",
 											"left": 189,
 											"top": 663,
-											"width": 254.1982421875,
+											"width": 275.5771484375,
 											"height": 13,
 											"text": "CancelTicketAppService"
 										},
@@ -19318,7 +19319,7 @@
 											"font": "Arial;13;0",
 											"left": -80,
 											"top": 144,
-											"width": 64.27001953125,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -19339,7 +19340,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 656,
-									"width": 264.1982421875,
+									"width": 285.5771484375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIVxZ9xYTMIfA="
@@ -19366,7 +19367,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 681,
-									"width": 264.1982421875,
+									"width": 285.5771484375,
 									"height": 10
 								},
 								{
@@ -19391,7 +19392,7 @@
 											"font": "Arial;13;0",
 											"left": 189,
 											"top": 696,
-											"width": 254.1982421875,
+											"width": 275.5771484375,
 											"height": 13,
 											"text": "+doMain(CancelTicketCommand command)",
 											"horizontalAlignment": 0
@@ -19400,7 +19401,7 @@
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 691,
-									"width": 264.1982421875,
+									"width": 285.5771484375,
 									"height": 23
 								},
 								{
@@ -19440,7 +19441,7 @@
 							"containerChangeable": true,
 							"left": 184,
 							"top": 656,
-							"width": 264.1982421875,
+							"width": 285.5771484375,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIVxZ9xYTLkxE="
@@ -19479,7 +19480,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 482,
+									"left": 493,
 									"top": 702,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -19500,7 +19501,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 482,
+									"left": 493,
 									"top": 717,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -19521,8 +19522,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 483,
-									"top": 673,
+									"left": 494,
+									"top": 672,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -19543,7 +19544,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 492,
-									"top": 703,
+									"top": 702,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -19563,8 +19564,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 489,
-									"top": 716,
+									"left": 490,
+									"top": 715,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -19605,7 +19606,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 473,
+									"left": 495,
 									"top": 702,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -19625,8 +19626,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 475,
-									"top": 716,
+									"left": 497,
+									"top": 715,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -19645,8 +19646,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 469,
-									"top": 675,
+									"left": 491,
+									"top": 674,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -19691,7 +19692,7 @@
 								"$ref": "AAAAAAGIVxWhLYNHdpY="
 							},
 							"lineStyle": 1,
-							"points": "519:695;448:693",
+							"points": "519:694;470:693",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIVxeB2oWXxe4="
@@ -19756,7 +19757,7 @@
 											"font": "Arial;13;0",
 											"left": 701,
 											"top": 805,
-											"width": 147.14501953125,
+											"width": 151.2646484375,
 											"height": 13,
 											"text": "«取消券独立使用规则»"
 										},
@@ -19769,7 +19770,7 @@
 											"font": "Arial;13;1",
 											"left": 701,
 											"top": 820,
-											"width": 147.14501953125,
+											"width": 151.2646484375,
 											"height": 13,
 											"text": "CancelTicketSingleRule"
 										},
@@ -19783,7 +19784,7 @@
 											"font": "Arial;13;0",
 											"left": 272,
 											"top": -96,
-											"width": 64.27001953125,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -19804,7 +19805,7 @@
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 800,
-									"width": 157.14501953125,
+									"width": 161.2646484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIVxiBWob9W6g="
@@ -19831,7 +19832,7 @@
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 838,
-									"width": 157.14501953125,
+									"width": 161.2646484375,
 									"height": 10
 								},
 								{
@@ -19856,7 +19857,7 @@
 											"font": "Arial;13;0",
 											"left": 701,
 											"top": 853,
-											"width": 147.14501953125,
+											"width": 151.2646484375,
 											"height": 13,
 											"text": "+checkRule()",
 											"horizontalAlignment": 0
@@ -19865,7 +19866,7 @@
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 848,
-									"width": 157.14501953125,
+									"width": 161.2646484375,
 									"height": 23
 								},
 								{
@@ -19905,7 +19906,7 @@
 							"containerChangeable": true,
 							"left": 696,
 							"top": 800,
-							"width": 157.14501953125,
+							"width": 161.2646484375,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIVxiBWob8Btc="
@@ -19952,7 +19953,7 @@
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 805,
-											"width": 194.796875,
+											"width": 201.11279296875,
 											"height": 13,
 											"text": "«取消券满减规则»"
 										},
@@ -19965,7 +19966,7 @@
 											"font": "Arial;13;1",
 											"left": 469,
 											"top": 820,
-											"width": 194.796875,
+											"width": 201.11279296875,
 											"height": 13,
 											"text": "CancelTicketFullReductionRule"
 										},
@@ -19979,7 +19980,7 @@
 											"font": "Arial;13;0",
 											"left": -304,
 											"top": 16,
-											"width": 64.27001953125,
+											"width": 68.44677734375,
 											"height": 13,
 											"text": "(from 用券)"
 										},
@@ -20000,7 +20001,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 800,
-									"width": 204.796875,
+									"width": 211.11279296875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIVyGBcoolvlM="
@@ -20027,7 +20028,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 838,
-									"width": 204.796875,
+									"width": 211.11279296875,
 									"height": 10
 								},
 								{
@@ -20052,7 +20053,7 @@
 											"font": "Arial;13;0",
 											"left": 469,
 											"top": 853,
-											"width": 194.796875,
+											"width": 201.11279296875,
 											"height": 13,
 											"text": "+checkRule()",
 											"horizontalAlignment": 0
@@ -20061,7 +20062,7 @@
 									"font": "Arial;13;0",
 									"left": 464,
 									"top": 848,
-									"width": 204.796875,
+									"width": 211.11279296875,
 									"height": 23
 								},
 								{
@@ -20101,7 +20102,7 @@
 							"containerChangeable": true,
 							"left": 464,
 							"top": 800,
-							"width": 204.796875,
+							"width": 211.11279296875,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIVyGBcookxrs="
@@ -20140,8 +20141,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 596,
-									"top": 758,
+									"left": 603,
+									"top": 757,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -20161,8 +20162,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 584,
-									"top": 749,
+									"left": 591,
+									"top": 748,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -20182,8 +20183,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 621,
-									"top": 775,
+									"left": 626,
+									"top": 776,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -20201,7 +20202,7 @@
 								"$ref": "AAAAAAGIVyGBcoojNko="
 							},
 							"lineStyle": 1,
-							"points": "591:799;628:747",
+							"points": "596:799;635:747",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIVyYruYvyOn0="
@@ -20234,8 +20235,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 712,
-									"top": 776,
+									"left": 716,
+									"top": 775,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -20255,8 +20256,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 700,
-									"top": 785,
+									"left": 704,
+									"top": 784,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -20276,8 +20277,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 735,
-									"top": 757,
+									"left": 741,
+									"top": 758,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -20295,7 +20296,7 @@
 								"$ref": "AAAAAAGIVxiBWob725k="
 							},
 							"lineStyle": 1,
-							"points": "745:799;704:747",
+							"points": "749:799;710:747",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGIVycCeY1H7lc="
@@ -20306,6 +20307,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGIVycCeY1JQEE="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGIvOtLzKBXm+I=",
+							"_parent": {
+								"$ref": "AAAAAAGIHiXU7Ork1B0="
+							},
+							"font": "Arial;13;0",
+							"left": 496,
+							"top": 208,
+							"width": 537,
+							"height": 42,
+							"text": "key4 = 券使用码_合同号_UUID(String 类型，目的：排除一张券在多个端用）\nvalue = 券批次主键 \n"
 						}
 					]
 				},
@@ -20790,7 +20804,8 @@
 								"$ref": "AAAAAAGIVxWhLYNF8cs="
 							},
 							"name": "nextUseTicketRule",
-							"stereotype": "AbstractCancelTicketRule"
+							"stereotype": "AbstractCancelTicketRule",
+							"type": ""
 						}
 					],
 					"operations": [
