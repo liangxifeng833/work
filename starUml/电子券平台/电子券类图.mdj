@@ -20316,10 +20316,10 @@
 							},
 							"font": "Arial;13;0",
 							"left": 496,
-							"top": 208,
+							"top": 200,
 							"width": 537,
 							"height": 42,
-							"text": "key4 = 券使用码_合同号_UUID(String 类型，目的：排除一张券在多个端用）\nvalue = 券批次主键 \n"
+							"text": "key4 = global_used_券使用码_合同号_uuid(String 类型，目的：排除一张券在多个端用）\nvalue = 券批次主键 \n"
 						}
 					]
 				},
